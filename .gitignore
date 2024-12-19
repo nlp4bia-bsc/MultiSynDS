@@ -1,2 +1,7 @@
-data/*
+# data
+data/**
 !data/.gitkeep
+.venv
+
+jobs
+__pycache__
