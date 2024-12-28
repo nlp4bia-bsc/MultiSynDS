@@ -15,7 +15,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.
 from src.data import files_to_df
 from src.scispacy_ie import entity_linker
 
-model_name = "2step_transformation_dt4h_GPT4omini"
+model_name = "2step_transformation_dt4h_GeminiFlash"
 output_path = "output/data"
 
 gen_path = "data/2_generated"
