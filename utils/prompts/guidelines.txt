@@ -1,0 +1,22 @@
+One of the main bottlenecks for the development of clinical NLP resources if the lack of access to clinical records due to data privacy issues. This is particularly true for developments beyond English, as most of the accessible anonymized clinical record datasets are only available for this language.
+
+To examine if clinical case report publications could potentially be considered as a data source to generate synthetic clinical discharge summaries by means of generative AI solutions, prompt instructions combined with automatic clinical were applied.
+
+This structured summary has the purpose to systematically characterize the clinical language characteristics of synthetic discharge summaries.
+
+Each discharge summary was assessed for a predefined set of features.
+
+Likert scale features (to extract statistics):
+
+- Content Relevance: Does the summary focus on clinically relevant information
+- Information Completeness: Does the summary include all key details (diagnoses, treatments, follow-ups)?
+- Clarity and Structure: Is the information presented in a clear and logically structured manner like a real discharge report?
+- Content Accuracy: Does the report accurately reflect the clinical information provided in the input?
+- Hallucinations: Are there any factual inaccuracies or fabricated content in the summary?
+- Impact of Hallucinations: How severe are these hallucination (e.g. 1-2: Irrelevant content, 3: include details about the patients not in original, 4-5: medication doses, procedures, etc)
+- Relevance to Practice: Would this summary be usable in clinical practice without significant revision?
+- Overall Quality: How would you rate the overall quality of the discharge summary?
+
+Free text features to be commented in error analysis. Not mandatory but open to express as much or as few as wanted.
+- Positive/Negative highlights of generation process
+- Other comments on Generated/Original data sources
