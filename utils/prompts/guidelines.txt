@@ -6,7 +6,7 @@ This structured summary has the purpose to systematically characterize the clini
 
 Each discharge summary was assessed for a predefined set of features.
 
-Likert scale features (to extract statistics):
+Likert scale features (to extract statistics) from 1 to 5:
 
 - Content Relevance: Does the summary focus on clinically relevant information
 - Information Completeness: Does the summary include all key details (diagnoses, treatments, follow-ups)?
