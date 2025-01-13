@@ -1,0 +1,5 @@
+Rewrite this text and structure it as a discharge summary without translation:
+
+[Clinical case text]
+
+=> [result]
