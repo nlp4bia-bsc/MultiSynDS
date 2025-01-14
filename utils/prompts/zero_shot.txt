@@ -1,1 +1,5 @@
-Evaluate...
+Evaluate these scale features carefully and for each feature, give a score from 1 to 5 for each feature, 
+and in each case there should be just a score number generated and no other response or comment is allowed.  
+YOU HAVE TO COMPARE EACH CLINICAL CASE WITH IT'S DISCHARGE SUMMARY AND THEN Evaluate THE SCALE FEATURES FOR THIS PAIR. 
+DO THIS FOR EACH PAIR.
+
