@@ -1,0 +1,40 @@
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient's Name]
+- **Age:** 67 years
+- **Gender:** Male
+- **Date of Admission:** March 2017
+- **Date of Discharge:** [Date of Discharge]
+- **Diagnosis:** Metastatic Uveal Melanoma (UM), Hypertension, Type 2 Diabetes, Obstructive Sleep Apnea, Coronary Artery Disease, Stage 2 Chronic Kidney Disease
+
+**Admission Details:**
+The patient was electively admitted for catheter-directed local cytokine-based immunoembolization (IE) for liver metastases. He had a history of UM diagnosed approximately one year prior, treated with plaque brachytherapy and valproic acid in a clinical trial, from which he was removed due to new liver lesions confirmed as metastatic disease. Prior echocardiogram indicated normal left ventricular function.
+
+**Clinical Presentation:**
+Upon admission, the patient reported chronic lower back pain. He was alert and oriented with stable vital signs. Laboratory tests revealed stable chronic kidney disease (creatinine 1.2 mg/dL).
+
+**Procedures:**
+On the following day, the right hepatic artery was accessed via a transfemoral microcatheter. The patient received 1,500 μg of GM-CSF and 2,000,000 IU of IL-2, followed by embolization with gelatin sponge particles. The procedure was uneventful, and the patient was monitored overnight.
+
+**Post-Procedure Course:**
+Approximately 11 hours post-IE, the patient developed mild hypoxemia, which improved with supplemental oxygen. He subsequently exhibited fever, tachycardia, tachypnea, and progressive hypoxemia. Laboratory findings included leukopenia, elevated liver enzymes, lactic acidosis, and acute kidney injury. An ECG showed sinus tachycardia, and imaging revealed pulmonary and hepatic changes.
+
+Despite aggressive treatment, including diuretics and antibiotics, the patient's condition deteriorated, leading to noninvasive positive-pressure ventilation and transfer to intensive care on hospital day 3. He became disoriented, and echocardiography indicated severe pulmonary hypertension and right ventricular dysfunction.
+
+**Critical Events:**
+The patient required endotracheal intubation due to respiratory failure. He experienced hemodynamic instability necessitating vasopressor support. Serial lab tests showed worsening liver function and cardiac markers, with an ECG indicating ST-segment changes suggestive of acute myocardial infarction. Emergency cardiac catheterization was not feasible due to instability.
+
+**Outcome:**
+The patient suffered a cardiac arrest with pulseless electrical activity and subsequently died. Autopsy findings revealed mild coronary artery atherosclerosis, pulmonary edema, and liver metastases, with no acute myocardial infarction or pulmonary embolism identified.
+
+**Discussion:**
+Pre-treatment laboratory analysis indicated elevated TGF-β1 levels, while post-treatment inflammatory markers showed significant fluctuations. These findings were considered in the differential diagnosis.
+
+**Plan:**
+The patient’s family has been informed of the findings and the unfortunate outcome. Further discussions regarding the management of metastatic UM and potential future treatment options will be conducted.
+
+**Signature:**
+[Physician's Name]  
+[Title]  
+[Date]

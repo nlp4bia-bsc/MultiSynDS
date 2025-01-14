@@ -1,0 +1,36 @@
+**Discharge Summary**
+
+**Patient Information:**
+- **Patient ID:** II
+- **Age:** 61 years
+- **Gender:** Male
+
+**Medical History:**
+- Longstanding ischemic heart failure post-posterior wall myocardial infarction (2002).
+- Coronary artery bypass graft surgery (2012).
+- Left ventricular assist device (LVAD, HVAD HeartWare) implantation due to advanced heart failure symptoms (2013).
+- Implantable cardioverter-defibrillator (ICD, Biotronik Lumax 540 DR-T) placed (2010) following recurrent ventricular tachycardia (VT).
+
+**Clinical Course:**
+- Since 2020, the patient experienced recurrent episodes of VT, managed with electrical cardioversion and intensified antiarrhythmic drug therapy (AADT).
+- In July 2021, the patient suffered an electrical storm with five consecutive shocks, necessitating further escalation of AADT.
+- Presenting with NYHA class III heart failure symptoms and evidence of end-organ failure.
+- Coronary angiogram showed no new stenosis.
+- Electroanatomical mapping (CARTO 3) identified low-voltage areas in the inferolateral left ventricle near the LVAD cannula.
+- Catheter ablation in the inferolateral area was unsuccessful in restoring normal rhythm, resulting in a change in VT morphology.
+- The patient remained stable with slow VT, tolerated under LVAD therapy, with a cardiac output of 4.5–5 L/min.
+
+**Treatment Plan:**
+- Radiation therapy was administered using Varian True BeamTM STX to accommodate the patient's reduced cardiopulmonary status and minimize treatment duration.
+- The internal target volume (ITV) was expanded by 4 mm to create the planning target volume (PTV).
+- Treatment planning utilized Varian EclipseTM (version 15.5) with four noncoplanar volumetric modulated arcs employing 6-MV flattening filter-free photon beams, with dose distribution calculated via the AAA/Acuros AXB algorithm.
+
+**Follow-Up:**
+- Post-radioablation, the patient exhibited a complex clinical trajectory, with VT initially persisting but gradually decelerating from 190 bpm to 130 bpm within the first 6 days, and further to 100–110 bpm over the next 14 days.
+- AADT was cautiously reduced; however, an attempt at external cardioversion two weeks post-ablation was unsuccessful.
+- Three weeks after the procedure, VT accelerated again to approximately 140 bpm.
+- A bilateral stellate ganglion block provided temporary relief, allowing pacemaker control of heart rate for several days before VT re-accelerated as the effect waned.
+- The patient ultimately succumbed to progressive end-organ failure 50 days following the radioablation procedure.
+
+**Disposition:**
+- The patient was discharged with a focus on palliative care and symptom management due to the progressive nature of his condition.

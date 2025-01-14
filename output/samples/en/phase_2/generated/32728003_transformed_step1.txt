@@ -1,0 +1,54 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 4 months at admission
+- Gender: Male
+- Body Weight: 6.7 kg
+
+**Maternal History:**
+- Mother: G4P4, 34 years old, healthy
+- Delivery: Vaginal, at 40 weeks gestational age
+- Birth Body Weight: 3550 g
+- Apgar Score: 8 → 9
+
+**Clinical History:**
+The patient was noted to have cyanosis during crying at three months of age, with frequent episodes of bluish discoloration of the skin. An echocardiogram performed at a local clinic diagnosed Tetralogy of Fallot (TOF). The patient was transferred to our facility for further management.
+
+**Hospital Course:**
+Upon admission, cardiac CT confirmed the diagnosis of TOF and persistent left superior vena cava (SVC). Cardiac catheterization indicated adequate pulmonary artery size with a McGoon ratio of 1.9. Due to recurrent hypoxic spells (SpO2 60%-75%) despite medical management, a decision was made to proceed with corrective surgery.
+
+**Surgical Intervention:**
+The patient underwent surgical repair of the ventricular septal defect (VSD), infundibulectomy, and right ventricular outflow tract (RVOT) reconstruction using a trans-annular patch made from fresh autologous pericardium. The procedure was performed under cardiopulmonary bypass (CPB) with a total CPB time of 208 minutes and aortic cross-clamping time of 148 minutes. The atrial septal defect (ASD) was left open. Post-surgery, RV pressure was measured at 38/15 mmHg and main pulmonary artery pressure at 24/15 mmHg.
+
+**Postoperative Management:**
+Postoperatively, the patient required ventilator support, inhaled nitric oxide (iNO), inotropic support, and antibiotics. Despite these interventions, the patient experienced persistent desaturation (SpO2 75%-85%) and low systolic blood pressure (SBP 70-80 mmHg). On postoperative day one, central venous pressure rose to 20-22 mmHg, and SpO2 further decreased to 60%-75%, leading to a diagnosis of right ventricular (RV) failure.
+
+Due to the lack of improvement with maximal medical therapy, VV-ECMO was initiated, which resulted in gradual stabilization of hemodynamics and respiratory function. The ECMO support lasted for 288 hours, and was successfully removed on postoperative day 13. iNO was discontinued on postoperative day 24, and extubation occurred on postoperative day 34.
+
+**Discharge Condition:**
+The patient was discharged on postoperative day 46 in stable condition. Pre-discharge echocardiography revealed:
+- Residual VSD: 0.2 cm
+- ASD present
+- Residual RVOT pressure gradient: 25 mmHg
+- Moderate pulmonary regurgitation (PR)
+- Left ventricular ejection fraction (LVEF): 69%
+
+**Follow-Up:**
+At 5 years of age, the patient weighed 18 kg and echocardiography showed:
+- Residual VSD: 0.2 cm
+- ASD present
+- Residual RVOT pressure gradient: 13 mmHg
+- Mild-to-moderate PR
+- LVEF: 85%
+
+The ASD was occluded percutaneously with an Amplatzer occluder. The patient is currently in functional class I of the New York Heart Association and is drug-free.
+
+**Recommendations:**
+- Regular follow-up with a pediatric cardiologist
+- Monitoring for any potential complications related to residual defects
+
+**Physician's Signature:**
+[Physician Name]  
+[Date]  
+[Contact Information]

@@ -1,0 +1,41 @@
+Initial presentation
+A 55-year-old, Caucasian woman was referred to our tertiary women’s heart center for persistent chest pain, palpitations, and dyspnea. Her medical history included hypertension, dyslipidemia, chronic anxiety, and bilateral non-obstructive carotid atherosclerosis. She had no prior history of diabetes mellitus, tobacco smoking, alcohol or substance abuse, or adverse pregnancy outcomes. Her family history was significant for premature coronary artery disease. Her father had a history of hypertension and had a myocardial infarction (MI) and coronary artery bypass grafting at the age of 39. Her brother had a history of coronary artery disease and also had a MI at the age of 40. Her occupational history indicated that she had been working in the field of psychology and was still an employee in the same job at the time of the hospital visit and follow-up care.
+
+The general symptoms and characteristic signs of our patient for the onset of CMD and her progression to HFpEF. She had undergone an exercise treadmill test which revealed ischemic ECG changes and dyspnea. Her initial echocardiogram demonstrated a LVEF of 67%, mild diastolic dysfunction, mild left ventricular (LV) hypertrophy, no significant valvular heart disease, and no pulmonary hypertension. Subsequent invasive left heart catheterization was performed and it showed normal epicardial coronary arteries without angiographic evidence of atherosclerotic plaque. She continued to have exertional symptoms and angina-like chest pain and was subsequently referred to our center for further evaluation of suspected INOCA. During her evaluation and treatment she continued to experience stable angina and exertional dyspnea despite initial management with atorvastatin 20 mg daily, lisinopril 20 mg daily, aspirin 81 mg daily, and sublingual nitroglycerin as needed. She had a poor clinical response to sublingual nitroglycerin. Due to her persistent symptoms and abnormal stress testing, she was referred for coronary reactivity testing (CRT) to establish the diagnosis of CMD.
+
+
+Timeline of coronary microvascular disease onset, progression to heart failure with preserved ejection fraction, and therapy
+
+Time: December 2006 (baseline)
+Visit type: Initial evaluation for symptoms of ischemic heart disease
+Symptoms: 5-month history of dyspnea both at rest and at exertion, squeezing chest pain on a daily basis, intermittent palpitations
+Medications: Lipitor (atorvastatin; 20 mg, daily), lisinopril (20 mg, daily), aspirin (81 mg, daily) and sublingual nitroglycerin (0.4 mg, as needed)
+Vital signs: Blood pressure, 120/75 mmHg; pulse, 60 bpm
+Laboratory assessments: Sodium, 143 (reference range, 135–145 mmol/L); potassium, 3.8 (reference range, 3.5–5.0 mmol/L), creatinine, 0.5 (0.6–1.1 mg/dL)
+Diagnostic testing: Diagnostic coronary reactivity testing demonstrating coronary endothelial dysfunction. Previous right left heart catheterization showed normal coronary arteries and was negative for any shunt. CMRI showed normal left ventricular structure and function. MPRI borderline normal 1.8
+
+
+Time: November 2016 (10-year follow-up)
+Visit type: Emergency Department visit for heart failure and initial diagnosis for heart failure with preserved ejection fraction
+Symptoms: Increased orthopnea, dyspnea, mild diffuse headache, lower extremity edema, and elevated blood pressure
+Medications: Eplerenone (25 mg, daily), lisinopril (40 mg, daily), aspirin (81 mg, daily), pravastatin (40 mg, daily), spironolactone (100 mg, daily), nitroglycerin (0.4 mg, as needed)
+Vital signs: Blood pressure, 152/77 mmHg; pulse, 70 bpm; respiratory rate, 18; temperature, 36.9 °C (98.4 °F)
+Laboratory assessments: BNP, 406 (reference range, < 100 pg/mL); troponin, < 0.01 (reference range, < 0.04 ng/mL); hemoglobin, 9.9 (reference range, 10.6–13.5 g/dL); sodium, 139 (reference range, 135–145 mmol/L); potassium, 4.3 (reference range, 3.5–5.0 mmol/L); creatinine, 0.5 (0.6–1.1 mg/dL)
+Diagnostic testing: Follow-up CMRI revealed worsening ischemia with MPRI 1.1 and increased wall thickness, with evidence of myocardial steatosis
+
+
+Diagnosis of CMD
+
+Our patient underwent invasive CRT, as previously published. Testing demonstrated normal coronary flow reserve (CFR) in response to intra-coronary adenosine (CFR 3.1; normal ≥ 2.5), abnormal macrovascular endothelial function to intra-coronary acetylcholine (− 6% change in coronary diameter, constriction; normal, dilation), abnormal microvascular endothelial function (coronary blood flow change 48%; normal ≥ 50%), and abnormal non-endothelial function to intra-coronary nitroglycerin (coronary diameter change + 0%; normal dilation) (Table 2). She also underwent cardiac magnetic resonance imaging (CMRI) with perfusion imaging at rest and with adenosine stress (140 μg/kg per minute) which showed circumferential subendocardial perfusion defect at stress, normal LV end-diastolic volume indexed to body surface area (EDVi) of 56.4 mL/m2, LV mass index 42.3 grams/m2, and no LV hypertrophy (septum 7.2 mm and lateral wall 6.0 mm). The myocardial perfusion reserve index (MPRI) was 1.8 which was considered borderline abnormal. There was no evidence of myocardial scar.
+
+The diagnosis of CMD was established by the coronary endothelial dysfunction observed with invasive CRT, and carvedilol and eplerenone 25 mg daily were added to her regimen. She was followed regularly in clinic with good control of her blood pressure and serum lipid levels. She reported improvement of her angina and dyspnea along with reduction in the duration and frequency of these episodes.
+
+
+Diagnosis of heart failure
+
+Ten years after her initial diagnosis of CMD, our patient was hospitalized due to symptoms of dyspnea. She was found to have elevated brain natriuretic peptide (BNP) levels of 406 pg/mL and normal LVEF. She had a computed tomography (CT) angiogram of her chest to evaluate for pulmonary embolism, which was negative but revealed bilateral pulmonary edema. She was treated with intravenously administered furosemide for pulmonary edema and diagnosed as having HFpEF. Subsequently, she was discharged with instructions to increase her eplerenone.
+
+She continued to experience worsening dyspnea on exertion, orthopnea, and paroxysmal nocturnal dyspnea. A repeat echocardiogram demonstrated normal LV systolic function with an LVEF of 64%, and diastolic dysfunction as evidenced by decreased lateral E′ velocity (4.2 cm/s, indicating impaired myocardial relaxation) and elevated E/E′ ratio 12.9 (suggestive of increased LV filling pressure). She underwent coronary CT angiography which showed absence of coronary atherosclerotic plaque and a coronary calcium score of 0. She was diagnosed as having HFpEF based on clinical symptoms, preserved ejection fraction of 64%, elevated BNP, and evidence of diastolic dysfunction.
+
+As part of the WISE – Coronary Vascular Dysfunction (WISE-CVD) Continuation Study (NCT00832702), she underwent a repeat rest-stress CMRI to assess myocardial structure, function, perfusion, and scar, and 13C magnetic resonance (CMR) spectroscopy. Compared to her prior CMRI 7 years ago, she had an increase in LV wall thickness in both the septum and lateral wall. On CMR spectroscopy, the myocardial triglyceride content was elevated (0.83%) compared to normal control women (mean 0.43%), suggesting myocardial steatosis which is consistent with an ischemia-induced metabolic shift and HFpEF phenotype. Adenosine stress first pass-perfusion CMRI again showed circumferential subendocardial hypoperfusion and her MPRI worsened from 1.8 to 1.1, consistent with severe CMD. There was no evidence of scar on late gadolinium enhancement imaging.
+

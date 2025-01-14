@@ -1,0 +1,46 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 25 years
+- Gender: Female
+
+**Admission Date:** [Admission Date]  
+**Discharge Date:** [Discharge Date]  
+**Attending Physician:** [Physician Name]  
+**Diagnosis:** Acute right heart failure (aRHF) secondary to thyrotoxicosis
+
+**History of Present Illness:**
+The patient presented to the ECMO service with acute thyrotoxicosis, cardiogenic shock, and acute respiratory failure. She has a known history of diffuse toxic goiter and has been non-adherent to antithyroid medication.
+
+**Clinical Findings:**
+- **Echocardiogram:** Revealed severely enlarged right ventricle (RV) with significantly reduced systolic and diastolic function, paradoxical septal motion, severely dilated right atrium (RA), severe tricuspid regurgitation, and dilation of the inferior vena cava indicative of acute right heart failure (aRHF).
+- **Intubation and Ventilation:** The patient required intubation and mechanical ventilation due to hypoxic respiratory failure.
+- **CT Pulmonary Angiography:** Ruled out pulmonary embolism but showed RV dilation and paradoxical interventricular septal bowing suggestive of RV strain.
+
+**Laboratory Results:**
+- Thyroid Stimulating Hormone (TSH): <0.01 micro-IU/mL (Reference: 0.4–5.5 micro-IU/mL)
+- Free Thyroxine (FT4): 2.3 ng/dL (Reference: 0.8–1.8 ng/dL)
+- T3 Resin Uptake: 49% (Reference: 22–25%)
+- Total Thyroxine: 5.0 mcg/dL (Reference: 5.1–11.9 mcg/dL)
+
+**Treatment Course:**
+The patient was initiated on high doses of inotropes and vasopressors to maintain hemodynamic stability. A ProtekDuo cannula was placed via the right internal jugular vein in the veno-venous position and connected to an ECMO circuit for respiratory support. Following initiation of mechanical circulatory support (MCS), we successfully weaned off vasopressors and inotropes. A post-cannulation echocardiogram showed decompression of the right heart chambers.
+
+The patient was treated with methimazole 40 mg daily for ten days, resulting in a decrease of free thyroxine levels to <0.3 ng/dL. Methimazole was resumed at a dose of 20 mg daily due to rising free thyroxine levels, peaking at 6.5 ng/dL, and was continued for 12 days before being reduced to 10 mg daily.
+
+The patient was supported with the ProtekDuo for seven days. With improvement in endocrine function, cardiac recovery was noted with improving RV and respiratory function. The membrane oxygenator was removed after three days, and the ProtekDuo cannula was utilized as a right ventricular assist device (RVAD) for four days. 
+
+**ICU Stay:**
+The patient was extubated on day 8 and spent a total of nine days in the ICU.
+
+**Discharge Condition:**
+The patient was discharged home on hospital day 26. A follow-up echocardiogram demonstrated normal RV cavity size and function.
+
+**Follow-Up:**
+The patient is advised to follow up with her endocrinologist and cardiologist for ongoing management of her thyroid condition and cardiac health.
+
+**Signature:**
+[Physician Name]  
+[Title]  
+[Date]

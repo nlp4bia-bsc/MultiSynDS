@@ -1,0 +1,49 @@
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient Name]
+- **Age:** 92 years
+- **Gender:** Male
+- **Admission Date:** [Admission Date]
+- **Discharge Date:** [Discharge Date]
+
+**Reason for Admission:**
+The patient was admitted with acute heart failure secondary to severe aortic stenosis (AS).
+
+**Clinical Findings:**
+- The patient was identified as a high-risk candidate for surgical aortic valve replacement (SAVR) with a logistic EuroSCORE of 18.3% and a Society of Thoracic Surgeons predicted risk of mortality of 11.2%.
+- Imaging studies, including computed tomography (CT) and aortography, revealed:
+  - Severe calcification and stenosis of the peripheral arteries.
+  - Severe stenosis of the right common iliac artery and occlusion of the left external iliac artery.
+  - Stenosis and calcification of the left subclavian artery.
+  - Severe calcification at the sinotubular junction, posing a risk for aortic dissection during transapical (TA) and transaortic (TAo) TAVI procedures.
+
+**Procedure:**
+Due to the patient's vascular anatomy and severe calcification, transcatheter aortic valve implantation (TAVI) via transapical approach was performed using a self-expanding bioprosthetic valve. The procedure details are as follows:
+- **Anesthesia:** General anesthesia with mechanical ventilation.
+- **Surgical Approach:** Reverse L-shaped lower hemisternotomy from the right second intercostal space to the xiphoid process.
+- **Access:** A 5-Fr pigtail catheter was inserted through the left radial artery, and an epicardial pacing lead was placed on the right ventricle.
+- **Aortography:** Conducted to measure a distance of 60 mm from the aortic annulus.
+- **Vascular Graft:** A 10-mm diameter vascular graft was sutured to the ascending aorta at a 45° angle under partial aortic clamp.
+- **Valve Implantation:** An 18 Fr DrySeal sheath was inserted into the graft, followed by predilation of the native aortic valve with a 20-mm Z-MED II balloon. A 29 mm CoreValve Evolut-R bioprosthetic valve was then implanted.
+
+**Post-Procedure Findings:**
+- Transesophageal echocardiography indicated mild paravalvular leakage.
+- Aortography showed mild aortic regurgitation with patent coronary arteries.
+- The vascular graft was ligated and resected after sheath extraction.
+
+**Duration of Procedure:**
+188 minutes
+
+**Clinical Course:**
+The patient's postoperative course was uneventful, and he demonstrated stable vital signs throughout his hospital stay.
+
+**Discharge Instructions:**
+- Follow-up appointments should be scheduled with the cardiology team.
+- Monitor for any signs of complications such as chest pain, shortness of breath, or swelling.
+- Continue prescribed medications and adhere to lifestyle modifications as discussed.
+
+**Physician's Signature:**
+[Physician Name]  
+[Title]  
+[Date]

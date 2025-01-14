@@ -1,0 +1,56 @@
+**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient Name]
+- **Age:** 56 years
+- **Gender:** Male
+- **Date of Admission:** [Admission Date]
+- **Date of Discharge:** [Discharge Date]
+
+**Medical History:**
+- At age 49, the patient experienced a cerebral stroke that resolved spontaneously without permanent damage. No MR-scan was performed at that time. The patient has no significant cardiovascular risk factors except for a family history of ischemic heart disease.
+
+**Presenting Complaints:**
+- The patient presented with third-degree atrioventricular (AV) block, initially suspected to be related to an acute Borrelia infection. Despite antibiotic treatment, the AV block persisted, necessitating the implantation of a dual-chamber pacemaker.
+
+**Hospital Course:**
+- During hospitalization, the patient reported fatigue, weight loss, and night sweats. Laboratory tests revealed:
+  - Sedimentation rate: >100 mm/hr
+  - Hemoglobin: 5.0 g/mL (anemia)
+  - Thrombocytosis: 615×10^9 cells/L
+  - C-reactive protein (CRP): 95
+  - No leukocytosis was noted.
+
+- Gastrointestinal hemorrhage was ruled out due to the absence of gastrointestinal symptoms. Four months later, the patient was diagnosed with ANCA-positive vasculitis, characterized by malaise, low-grade fever, arthritis, and sinusitis. Biopsy results indicated acute and chronic inflammation without necrosis or granulomas. High-resolution computed tomography (HRCT) revealed interstitial lung disease, and the Birmingham Vasculitis Activity Score (BVAS) was 15.
+
+- Treatment with steroids (6 months) and methotrexate led to remission of the vasculitis, with normalization of MPO-ANCA levels. Methotrexate was discontinued after 2 years.
+
+- One year later, the patient presented with respiratory symptoms and elevated MPO-ANCA levels. Steroid and methotrexate therapy was resumed, but respiratory symptoms did not improve. A multidisciplinary evaluation was conducted, including cardiac, pulmonary, and rheumatic assessments.
+
+**Cardiac Evaluation:**
+- Echocardiogram showed preserved left ventricular function with mild-to-moderate aortic regurgitation. A treadmill exercise test indicated severely reduced functional capacity (peak exercise of 113W, 52% of expected). Pulmonary function tests revealed severe obstructive pulmonary disease (FEV1: 1.1 L, 29% of predicted; FVC: 3.0 L, 63% of predicted). A ventilation/perfusion lung scan confirmed bilateral pulmonary embolisms.
+
+- Anticoagulant therapy (rivaroxaban) was initiated alongside methylprednisolone, prednisolone, methotrexate, and bronchodilators.
+
+**Subsequent Developments:**
+- Over the next 12 weeks, the patient's dyspnea worsened. A follow-up echocardiogram indicated a dilated left ventricle with reduced ejection fraction (EF: 30-35%). The dual-chamber pacemaker was upgraded to a cardiac resynchronization therapy (CRT) pacemaker, resulting in symptomatic improvement.
+
+- The patient was monitored at the Pulmonology Center for interstitial lung disease, the Rheumatology Center for connective tissue diseases, and the Department of Cardiology. A pneumonia episode was successfully treated with antibiotics.
+
+**Surgical Intervention:**
+- A new cardiac evaluation revealed severe aortic regurgitation due to a fixed and edematous right coronary cusp. The patient underwent thoracotomy and implantation of an aortic valve bioprosthesis. Histological analysis of the aortic cusps showed fibrosis, myxoid degeneration, and inflammatory changes.
+
+- Post-surgery, the patient developed intermittent atrial flutter, which was managed with amiodarone, beta-blockers, and pacemaker reprogramming, leading to normalization of ventricular frequency and improvement in dyspnea.
+
+**Discharge Medications:**
+- [List of medications prescribed at discharge]
+
+**Follow-Up:**
+- The patient is advised to follow up with the cardiology, pulmonology, and rheumatology clinics as scheduled.
+
+**Conclusion:**
+The patient has shown significant improvement post-surgery and is stable for discharge. Further monitoring and management of underlying conditions will continue in the outpatient setting.
+
+**Physician's Signature:**
+[Physician Name]
+[Date]

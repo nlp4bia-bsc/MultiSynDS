@@ -1,0 +1,38 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 28 years
+- Gender: Female
+- Admission Date: [Admission Date]
+- Discharge Date: [Discharge Date]
+
+**Chief Complaint:**
+The patient was admitted for the management of acute heart failure secondary to severe aortic regurgitation.
+
+**History of Present Illness:**
+The patient has a significant medical history of patent ductus arteriosus, which was treated with ligation during infancy. She presented with symptoms consistent with acute heart failure.
+
+**Investigations:**
+- **Echocardiography:** Revealed left ventricular dysfunction and severe aortic regurgitation attributed to annuloaortic ectasia.
+- **Computed Tomography (CT):** Identified thoracic (54 mm) and abdominal aortic aneurysms.
+- **Magnetic Resonance Imaging (MRI) of the Brain:** Showed abnormalities, including straightening and narrowing of the cerebral arteries, suggestive of ACTA-2 gene mutations.
+
+**Treatment:**
+The patient underwent a successful David procedure following stabilization of her heart failure symptoms. 
+
+**Pathology:**
+Specimen analysis from the aorta indicated a loss of elastic fibers in the media, confirmed by elastica van Gieson staining.
+
+**Genetic Testing:**
+Genetic analysis confirmed a mutation in the ACTA-2 gene (c535C >T:p Arg179Cys), which is associated with various forms of vasculopathy, including aortic disease, coronary artery disease, and stroke.
+
+**Discharge Condition:**
+The patient is stable and has shown significant improvement post-surgery. 
+
+**Follow-Up:**
+The patient is advised to follow up with her cardiologist and genetic counselor for ongoing management and monitoring of her condition.
+
+**Physician's Signature:**
+[Physician Name]  
+[Date]

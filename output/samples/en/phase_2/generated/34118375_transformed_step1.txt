@@ -1,0 +1,52 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 30 years
+- Gender: Male
+- Admission Date: [Admission Date]
+- Discharge Date: [Discharge Date]
+
+**Chief Complaint:**
+The patient presented to the emergency department with dyspnea, constrictive retrosternal pain, nausea, and profuse sweating.
+
+**History of Present Illness:**
+The patient reported a fever (38.8°C) and arthralgia 72 hours prior to admission, following his second dose of the SARS-CoV-2 vaccine (mRNA BNT162b2), administered 21 days after the first dose. He tested negative for SARS-CoV-2 via nasopharyngeal swab prior to hospital admission.
+
+**Medical History:**
+Anamnesis was negative for cardiovascular or metabolic disorders and recent infectious diseases.
+
+**Physical Examination:**
+- Afebrile
+- Heart Rate: 93 beats/min (moderate tachycardia)
+- Blood Pressure: 115/58 mm Hg
+- Oxygen Saturation: 99% on room air
+- Auscultation: No lung alterations or heart murmurs detected
+
+**Laboratory Findings:**
+- Cardiac Troponin I: 12,564.80 pg/mL (normal < 34.2 pg/mL)
+- Creatine Kinase-MB: 53.8 ng/mL (normal 0-5.2 ng/mL)
+- Lactate Dehydrogenase: 228 U/L (normal 125-220 U/L)
+- Activated Partial Thromboplastin Time: 75.2 seconds (normal 20-40 seconds)
+- C-Reactive Protein: 39.6 mg/L (normal 0-5 mg/L)
+- White Blood Cells: 10.4 × 10^3/µL (normal 4.0-10.0 × 10^3/µL) with mild eosinophilia (0.9 × 10^3/µL, normal 0.0-0.5 × 10^3/µL)
+
+**Imaging Studies:**
+- **Electrocardiography (ECG):** Subtle ST-segment elevation in V2-V4 and nonspecific T-wave changes in V5 and V6.
+- **Transthoracic Echocardiography:** Preserved ejection fraction, mild pericardial effusion, and segmental wall motion abnormality of the apical portion of the interventricular septum.
+- **Coronary Angiography:** No coronary artery disease identified.
+- **Cardiac MRI:** Good systolic function with increased myocardial and pericardial signal intensity on T2-weighted sequences (T2 ratio 2.1; normal < 2) and subepicardial enhancement of the myocardium on T1-weighted sequences, suggestive of myopericarditis.
+
+**Infectious and Serological Workup:**
+Extensive infectious and rheumatologic evaluations were unremarkable. Virus serology did not reveal IgM antibodies or a 4-fold increase in IgG antibodies for various viruses. A quantitative SARS-CoV-2 antibody assay indicated post-vaccination titers of > 40,000 AU/mL at admission and 8,392 U/mL at 1-month follow-up. The patient tested negative for SARS-CoV-2 infection at both time points.
+
+**Treatment:**
+The patient was treated with bisoprolol and acetylsalicylic acid, leading to progressive symptom resolution. Prednisolone was also administered during hospitalization. A repeat nasopharyngeal swab for SARS-CoV-2 on day 7 post-admission was negative. Cardiac-specific troponin I and creatine kinase-MB levels showed progressive decrease.
+
+**Discharge Instructions:**
+The patient is discharged home with the recommendation to avoid intense physical activity. Follow-up appointments should be scheduled as necessary.
+
+**Physician's Signature:**
+[Physician Name]
+[Title]
+[Date]

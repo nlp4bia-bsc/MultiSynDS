@@ -1,0 +1,15 @@
+A 43-year-old female patient with uterine diffuse large B-cell lymphoma, stage 3B, who underwent hysterectomy followed by chemotherapy and radiotherapy. The patient had a history of chronic renal disease and renal replacement therapy (RRT) due to bilateral hydroureteronephrosis caused by the primary uterine disease. Pre-chemotherapy echocardiogram showed concentric left ventricular hypertrophy (LVH) and preserved left ventricular ejection fraction (pLVEF) (66%).
+
+The patient underwent eight cycles of R-CHOP regimen (rituximab, cyclophosphamide, vincristine, doxorubicin, and prednisone). As the patient was refractory to the primary treatment, the patient received salvage therapy with four cycles of the R-ICE protocol (Mesna, ifosfamide, carboplatin, and etoposide phosphate), but was intolerant to carboplatin. The treatment was changed to GEMOX (oxaplatin, gemcitabin) and finished after four cycles. Then the patient underwent 28 radiotherapy sessions and had no signs of oncologic recurrence since then.
+
+Two years after the onset of chemotherapy, the patient was admitted with heart failure (HF). The echocardiogram showed a LVEF of 35%. Myocardial perfusion scintigraphy showed a reduction in the LVEF (37%) by gated SPECT imaging and a transient hypoperfusion of apical and inferoseptal walls of the left ventricle. Cineangiography showed no evidence of epicardial coronary disease.
+
+Since then, the patient had four admissions for HF decompensation, the last one occurring one year ago. Cardiac magnetic resonance (CMR) showed LVEF of 39% and non-ischemic, and late enhancement of left ventricular inferolateral wall.
+
+The patient is currently stable, taking 25mg/d carvedilol, 100mg/d losartan and 40mg/d furosemide. Cardiotoxicity was the most likely cause of HF with reduced LVEF.
+
+Time course of cardiac Imaging results
+Cardiac imaging results were placed in a chronological order to better understand the course of this case. A reduction in LVEF is observed in the echocardiogram performed at the diagnosis of HF. There was a recovery of the LVEF in 2019, with new reductions in the following echocardiograms, as well as in the CMR.
+
+A retrospective analysis of myocardial uptake of F-18-fluorodeoxyglucose (18F-FDG) by positron emission tomography/computed tomography (PET/CT) showed an increase in the uptake since the first test during chemotherapy. The maximum standard uptake value (SUV) remained high in the following tests and reached the highest value in the last test.
+

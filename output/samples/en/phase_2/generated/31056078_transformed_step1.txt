@@ -1,0 +1,58 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 55 years
+- Gender: Female
+- Ethnicity: Caucasian
+
+**Admission Date:** [Admission Date]  
+**Discharge Date:** [Discharge Date]  
+**Attending Physician:** [Physician Name]  
+**Diagnosis:** Heart Failure with Preserved Ejection Fraction (HFpEF), Coronary Microvascular Disease (CMD)
+
+**History of Present Illness:**
+The patient was referred to our tertiary women’s heart center for evaluation of persistent chest pain, palpitations, and dyspnea. Her medical history includes hypertension, dyslipidemia, chronic anxiety, and bilateral non-obstructive carotid atherosclerosis. She has no prior history of diabetes, tobacco use, alcohol or substance abuse, or adverse pregnancy outcomes. Family history is significant for premature coronary artery disease, with her father experiencing a myocardial infarction at age 39 and her brother at age 40.
+
+**Initial Evaluation:**
+- **Date:** December 2006
+- **Symptoms:** 5-month history of dyspnea at rest and exertion, daily squeezing chest pain, intermittent palpitations.
+- **Medications:** Atorvastatin 20 mg daily, Lisinopril 20 mg daily, Aspirin 81 mg daily, Sublingual Nitroglycerin as needed.
+- **Vital Signs:** BP 120/75 mmHg, Pulse 60 bpm.
+- **Laboratory Results:** Sodium 143 mmol/L, Potassium 3.8 mmol/L, Creatinine 0.5 mg/dL.
+- **Diagnostic Testing:** Coronary reactivity testing indicated coronary endothelial dysfunction. CMRI showed normal left ventricular structure and function.
+
+**Progression to Heart Failure:**
+- **Date:** November 2016
+- **Symptoms:** Increased orthopnea, dyspnea, mild headache, lower extremity edema.
+- **Medications:** Eplerenone 25 mg daily, Lisinopril 40 mg daily, Aspirin 81 mg daily, Pravastatin 40 mg daily, Spironolactone 100 mg daily, Nitroglycerin as needed.
+- **Vital Signs:** BP 152/77 mmHg, Pulse 70 bpm.
+- **Laboratory Results:** BNP 406 pg/mL, Troponin <0.01 ng/mL, Hemoglobin 9.9 g/dL.
+- **Diagnostic Testing:** CMRI revealed worsening ischemia and myocardial steatosis.
+
+**Final Diagnosis:**
+The patient was diagnosed with CMD based on invasive coronary reactivity testing and subsequently developed HFpEF, confirmed by elevated BNP levels, preserved LVEF, and evidence of diastolic dysfunction.
+
+**Hospital Course:**
+During hospitalization, the patient was treated for pulmonary edema with intravenous furosemide. She was monitored for symptoms of dyspnea and adjusted her medications, including an increase in eplerenone. A repeat echocardiogram showed normal LV systolic function with an LVEF of 64% and diastolic dysfunction.
+
+**Discharge Medications:**
+- Eplerenone 25 mg daily
+- Lisinopril 40 mg daily
+- Aspirin 81 mg daily
+- Pravastatin 40 mg daily
+- Spironolactone 100 mg daily
+- Nitroglycerin as needed
+
+**Follow-Up:**
+The patient is advised to follow up in the cardiology clinic for ongoing management of her heart failure and CMD. She should monitor her symptoms and report any worsening of dyspnea or chest pain.
+
+**Instructions:**
+- Increase eplerenone as directed.
+- Maintain a low-sodium diet.
+- Engage in light physical activity as tolerated.
+- Schedule follow-up appointments as recommended.
+
+**Physician Signature:**  
+[Physician Name]  
+[Date]

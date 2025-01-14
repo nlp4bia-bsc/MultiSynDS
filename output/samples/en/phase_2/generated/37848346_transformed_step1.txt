@@ -1,0 +1,54 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 30 years
+- Gender: Male
+- Admission Date: July 8, 2021
+- Discharge Date: July 30, 2021
+
+**Diagnosis:**
+1. Morbid obesity (BMI: 46.7 kg/m²)
+2. Hypertension
+3. Diabetes
+4. Cardiomyopathy
+5. Congestive heart failure (LVEF: 13%)
+6. Metabolic syndrome
+7. Nephritic syndrome
+8. Obstructive sleep apnea syndrome
+
+**History of Present Illness:**
+The patient was admitted for bariatric surgery following unsuccessful attempts at weight loss through diet and exercise. He had a significant medical history, including hypertension and diabetes, and had been hospitalized one month prior for edema and difficulty lying flat, where he was diagnosed with cardiomyopathy and congestive heart failure.
+
+**Preoperative Management:**
+A multidisciplinary team developed a comprehensive treatment plan focusing on weight loss and cardiac function improvement prior to surgery. Interventions included:
+- Medical management to reduce cardiac preload and afterload.
+- Angiotensin receptor blocker therapy for nephritic syndrome.
+- A short-term low-calorie diet followed by a specialized medical formula for kidney disease.
+- Adjustment of insulin regimen to stabilize blood glucose levels.
+
+After two weeks of treatment, the patient demonstrated significant clinical improvement, including a 10 kg weight loss and stabilization of blood glucose, blood pressure, and heart rate. Cardiac function improved to NYHA functional class II to III, allowing for the scheduling of laparoscopic sleeve gastrectomy.
+
+**Surgical Procedure:**
+- Date of Surgery: July 23, 2021
+- Time: 11:50 AM
+- Procedure: Laparoscopic sleeve gastrectomy under general anesthesia.
+- Intraoperative Monitoring: Noninvasive blood pressure, ECG, pulse oximetry, and invasive monitoring via radial artery and deep vein catheterization.
+- Anesthesia Management: Induction followed by maintenance with fluid and medication to support myocardial metabolism.
+- Duration of Surgery: Completed at 2:30 PM with minimal intraoperative bleeding (20 mL) and total fluid infusion of 700 mL.
+
+**Postoperative Course:**
+The patient was transferred to the ICU for monitoring and was successfully extubated the following day. He was later moved to the general ward and discharged on July 30, 2021, after full recovery.
+
+**Follow-Up:**
+At the 1-year follow-up, the patient had lost a total of 52 kg. His cardiac function significantly improved, with no symptoms of fatigue, palpitations, or dyspnea during daily activities. He was able to engage in exercise, which was previously unfeasible. The patient had discontinued irbesartan, furosemide, and prazosin, replacing irbesartan with valsartan. His cardiac function improved from NYHA functional class IV at admission to NYHA functional class I at follow-up.
+
+**Recommendations:**
+- Continue monitoring weight and cardiac function.
+- Maintain a healthy diet and regular exercise.
+- Follow up with cardiology and endocrinology as needed.
+
+**Physician's Signature:**
+[Physician Name]  
+[Title]  
+[Date]

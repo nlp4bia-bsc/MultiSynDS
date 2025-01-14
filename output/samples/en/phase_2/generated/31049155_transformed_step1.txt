@@ -1,0 +1,37 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 30 years
+- Gender: Female
+
+**Medical History:**
+- History of neonatal repair of infracardiac obstructed total anomalous pulmonary venous return (TAPVR).
+
+**Presenting Complaint:**
+- The patient presented with dyspnea on exertion.
+
+**Investigations:**
+- Cardiac magnetic resonance imaging and computed tomography were performed upon presentation, revealing an anomalous connection—specifically, an unligated vertical vein—between the pulmonary venous confluence and the portal venous system.
+- Notable findings included enlargement of the right ventricle with depressed function.
+
+**Procedures:**
+- Transseptal catheterization was conducted.
+- Left lower pulmonary venography demonstrated opacification of the confluence with return into the left atrium and into the portal vein via the vertical vein.
+- An Agilis steerable sheath (Abbott Vascular) was utilized for optimal cannulation of the vertical vein, which measured 16.6 × 14 mm.
+- A 22-mm AMPLATZER Vascular Plug II (Abbott Vascular) was successfully deployed through a 7-Fr Pinnacle Destination sheath (Terumo Medical).
+- Post-deployment assessment indicated no pressure gradient between the left lower pulmonary vein and the left atrium.
+
+**Follow-Up:**
+- The patient reported improved exercise tolerance during follow-up.
+
+**Discharge Condition:**
+- The patient is stable and has been discharged with instructions for follow-up care. 
+
+**Recommendations:**
+- Continue monitoring for any signs of complications.
+- Schedule follow-up appointments as needed. 
+
+**Physician's Signature:**
+[Physician Name]  
+[Date]

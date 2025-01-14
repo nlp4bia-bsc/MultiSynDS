@@ -1,0 +1,31 @@
+Patient information
+A woman in her 70s diagnosed with HF in 1999, having comorbidities such as chronic obstructive pulmonary disease, asthma, hypertension, diabetes and kidney failure (stage 4). The patient lived with a full-time carer, in one of the most deprived (decile 1 for both the Index of Multiple Deprivation and the Health Deprivation and Disability Domain) areas of England. As per usual practice, the patient was mostly looked after by her general practitioner (GP).
+
+The patient and her son provided informed consent to use her anonymised data for research purposes. The patient’s son consented to the access and use of the patient’s medical records after she had passed away. The data were collected as part of post-market surveillance activities in the UK.
+
+Treatment
+Device information
+The Heartfelt device (Heartfelt Technologies) and connected weighing scales (Xiaomi Smart Scales, Anhui Huami Information Technologies) were installed in the patient’s home and connected via the internet to cloud-based servers for continuous monitoring.
+
+The Heartfelt device is an automated, non-invasive, remote volume-monitoring system that uses 3D sensors to automatically measure the volume of the foot/lower leg and generates alerts when the foot volume increases. In a hospital study, the volumes measured using the Heartfelt device were compared with volumes measured using water displacement (gold standard to measure foot volume) and the Heartfelt device had a SE of measurement of ±12.6 mL.
+
+The 3D sensor captures images at a rate of 30 images per second, which are censored at knee height. Measurements are then processed using artificial intelligence in cloud servers. A selection of 4–8 3D images are used to calculate the volume, these images may have been captured over a period of a few minutes or hours depending on the patient’s routine in the room where the device is located. When an increase in volume is detected beyond baseline level (oedema), an alert is generated. The alert can be sent to the patient, their carer or their clinical team. The innovation of the Heartfelt device is that it requires no specific action from the patient unlike other telemonitoring technologies that require patients to interact or comply with instructions for use. Even weighing scales, which are used as part of standard care for the management of HF, require a level of compliance from patients.
+
+Timeline
+The Heartfelt device was installed in the patient’s house at a location and height to allow for optimal data collection and it successfully collected and transmitted data for fifteen months (November 2018 to January 2020; until the patient’s first hospital admission. A few more days of data were collected between discharge and the second admission. 3D images of feet/lower legs of the patient were automatically captured, censored, encrypted and transmitted securely over the internet to cloud-based servers for final processing to generate daily foot/lower leg volumes. These daily data points were monitored by trained operators and our setup ensured that no change was required in the patient’s lifestyle or standard care and she could be monitored safely in her home.
+
+First alert
+Following an increase in lower limb volume starting in late December 2019, an alert was raised on third Jan 2020 and the patient and her carer were informed as per the agreed contact method with the patient and her family at the time of installation. A follow-up alert was generated on 11 January 2020 and the patient was visited by a GP on 12 January 2020 on patient’s request, at which point peripheral oedema was confirmed up to the knee. Given that the patient had kidney failure and was on the maximal tolerated dose of oral diuretic (120 mg furosemide/day and 50 mg/day spironolactone), the ongoing medications were kept the same.
+
+First hospitalisation
+For the next few days, the patient’s condition did not improve and the GP was called for a home visit again. Peripheral oedema was noted as thigh-high and ascites, and the patient also suffered severe shortness of breath after five steps. The GP and patient agreed that the best course of action would be to get IV diuretic to help reduce congestion. In the patient’s area, this can only be done through an admission. Therefore the GP planned for the patient to be admitted on 16 January 2020. The patient was admitted as a non-urgent admission to a cardiology ward and HF decompensation was subsequently confirmed. The patient remained hospitalised and was discharged on 7 February 2020 with further treatment of high-dose diuretics.
+
+Second alert
+The system logged measurements following discharge, which indicated the patient was not euvolaemic and her feet were still swollen. The patient was then bedbound for several days, and on 12 February 2020 a further measurement with >300 mL increase was made, and the patient was informed.
+
+Second hospitalisation
+After the second alert, the condition of the patient deteriorated rapidly. New diuretics were prescribed by her GP, 5 mg amiloride and 2.5 mg metolazone and furosemide was reduced to 160 mg/day. She was then admitted to hospital again on 15 February 2020 as a non-urgent admission. The patient remained in hospital until the 23 February 2020 and began to receive palliative care from 24 February 2020 onwards. The patient subsequently died on 8 March 2020.
+
+Follow-up and outcomes
+The volume trends and alerts generated throughout the 15 months for the patient. Alerts were generated both times in a timely fashion to prevent the need for an emergency hospital admission. The device has successfully provided volume data on 97.7% of days (over fifteen months) and the volume capture did not drop off over time.
+

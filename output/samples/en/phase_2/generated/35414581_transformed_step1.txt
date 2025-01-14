@@ -1,0 +1,29 @@
+**Discharge Summary**
+
+**Patient Information:**
+- **Patient:** Female, 70s
+- **Diagnosis:** Heart Failure (HF) since 1999
+- **Comorbidities:** Chronic Obstructive Pulmonary Disease, Asthma, Hypertension, Diabetes, Stage 4 Kidney Failure
+- **Living Situation:** Resided with a full-time carer in a deprived area of England, primarily managed by her General Practitioner (GP).
+
+**Consent for Data Use:**
+- Informed consent was obtained from the patient and her son for the use of anonymized data for research purposes. The son consented to access the patient's medical records posthumously.
+
+**Treatment Overview:**
+- **Device Utilized:** Heartfelt device (Heartfelt Technologies) for remote volume monitoring, alongside Xiaomi Smart Scales.
+- **Functionality:** The Heartfelt device employs 3D sensors for non-invasive monitoring of lower limb volume, generating alerts for volume increases indicative of edema. The device operated effectively for 15 months, from November 2018 to January 2020.
+
+**Monitoring Timeline:**
+- **Installation:** Device installed for optimal data collection.
+- **First Alert:** Triggered on January 3, 2020, due to increased lower limb volume. Confirmed peripheral edema up to the knee during GP visit on January 12, 2020.
+- **First Hospitalization:** Admitted on January 16, 2020, for IV diuretics due to HF decompensation; discharged on February 7, 2020.
+
+**Second Alert and Hospitalization:**
+- **Second Alert:** Noted on February 12, 2020, indicating significant volume increase post-discharge.
+- **Second Hospitalization:** Admitted on February 15, 2020, with deteriorating condition. Palliative care initiated on February 24, 2020. The patient passed away on March 8, 2020.
+
+**Outcomes:**
+- The Heartfelt device successfully monitored volume trends, generating timely alerts that prevented emergency admissions. Volume data was captured on 97.7% of days over the monitoring period, demonstrating consistent performance.
+
+**Conclusion:**
+The patient received comprehensive monitoring and care throughout her treatment, with the Heartfelt device playing a crucial role in managing her heart failure and related complications.

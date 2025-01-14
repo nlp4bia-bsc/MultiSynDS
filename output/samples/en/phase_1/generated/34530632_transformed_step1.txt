@@ -1,0 +1,59 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 70 years
+- Height: 170 cm
+- Weight: 48 kg
+- ASA Status: IV
+
+**Medical History:**
+- Heart Failure with Reduced Ejection Fraction (HFrEF) due to dilated cardiomyopathy
+- Diabetes Mellitus
+- Chronic Obstructive Pulmonary Disease (COPD)
+- History of right leg weakness due to thrombotic occlusion of the right ilio-femoral artery
+
+**Admission Details:**
+- Admission Date: [Admission Date]
+- Procedure: Debridement of skin necrosis in the right leg
+- Duration of Stay: [Duration of Stay]
+
+**Clinical Findings:**
+- Skin necrosis on the anterolateral side of the lower leg
+- Initial BNP level: 837 pg/mL (decreased to 216 pg/mL pre-surgery)
+- Chest radiography indicated pneumonic infiltration in the right lung and diffuse emphysematous changes in both lungs
+- Preoperative echocardiography revealed:
+  - Global hypokinesia
+  - Severe left ventricular dysfunction (Ejection Fraction: 11%)
+  - Enlarged left atrium and ventricular chamber
+  - Grade II diastolic dysfunction
+
+**Preoperative Management:**
+- Heart failure managed with spironolactone, ivabradine, sacubitril/valsartan, and warfarin (1.5 mg)
+- Anticoagulation therapy continued due to high thromboembolism risk
+- Blood pressure: Systolic 70 mmHg, Diastolic 40 mmHg
+- Coagulation profile: Activated prothrombin time 49.4 s, INR 1.63
+
+**Anesthesia Plan:**
+- Regional anesthesia was initially considered but contraindicated due to anticoagulation therapy.
+- Patient preferred general anesthesia despite counseling regarding the benefits of regional anesthesia.
+- A popliteal sciatic nerve block and fascia iliaca compartment block were performed under ultrasound guidance.
+
+**Surgical Procedure:**
+- Surgery was performed successfully with stable hemodynamic parameters.
+- No analgesics or rescue blocks were required during the operation.
+- Postoperative care included transfer to the intensive care unit for close monitoring.
+
+**Postoperative Course:**
+- Hemodynamic stability confirmed; transferred to the general ward the following day.
+- Underwent two additional wound debridements and a skin autograft at the defect site, all performed using the same nerve block techniques.
+- No postoperative complications such as dyspnea or surgical site pain.
+
+**Discharge Condition:**
+- The patient was discharged in stable condition without any symptoms.
+- Follow-up appointments scheduled for ongoing care.
+
+**Discharge Date:** [Discharge Date]  
+**Physician:** [Physician Name]  
+**Signature:** [Signature]  
+**Date:** [Date]

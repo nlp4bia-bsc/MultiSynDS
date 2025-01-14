@@ -1,0 +1,50 @@
+**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 25 years
+- Gender: Male
+- Admission Date: [Admission Date]
+- Discharge Date: [Discharge Date]
+
+**Chief Complaint:**
+Acute onset of chest discomfort and respiratory distress for 2 hours.
+
+**History of Present Illness:**
+The patient presented with acute chest discomfort and respiratory distress. There was no significant past medical history of cardiorespiratory illness, trauma, neurological disease, loss of consciousness, or vomiting.
+
+**Vital Signs on Admission:**
+- Heart Rate: 94 beats per minute
+- Blood Pressure: 184/98 mmHg
+- Respiratory Rate: 38 breaths per minute
+- Oxygen Saturation: 88% on 6 L/min oxygen via Hudson mask
+
+**Physical Examination:**
+Auscultation revealed bilateral coarse crepitations in all lung fields.
+
+**Diagnostic Studies:**
+- **Chest Radiograph:** Bilateral lung infiltrates.
+- **Electrocardiography (ECG):** Inverted T waves in all leads.
+- **Echocardiography (Echo):** Normal chamber anatomy with global hypokinesia (basal > apical), mid-ventricular regional wall motion abnormalities (RWMA), and an ejection fraction of 30%.
+- **Computed Tomography (CT) Scan of Head:** Hematoma of the left cerebellar hemisphere due to a cerebellar arteriovenous malformation (AVM) causing herniation of the cerebellar tonsils.
+
+**Clinical Course:**
+Following admission to the intensive care unit, the patient developed an occipital headache and rapidly deteriorated to a Glasgow Coma Score (GCS) of 6 (E2V2M2). The patient was intubated with rapid sequence intubation and placed on mechanical ventilation in volume control mode.
+
+Despite high levels of FiO2 (90%) and PEEP (12), the patient's lung status deteriorated, with a PaO2 of 58 mmHg and PaCO2 of 41 mmHg. The hemodynamic profile was unstable, requiring maintenance of systolic BP and mean arterial pressure (MAP) in the range of 120 mmHg and 60 mmHg with a combination of Inj. Dobutamine and Inj. Norepinephrine.
+
+Conservative management for the cerebellar bleed was initiated due to the relatives' refusal for surgical intervention, citing high perioperative mortality risk due to poor cardiopulmonary status and unstable hemodynamics. Treatment included head elevation of 30 degrees, osmotherapy with 3% saline, hyperventilation targeting a PaCO2 of 35 mmHg, Inj. Furosemide 20 mg, and an Inj. Propofol infusion (50–100 mcg.kg −1.min −1) for neuroprotection and intracranial pressure reduction.
+
+Over the next 24 hours, the patient progressed to multi-organ dysfunction syndrome (MODS), characterized by poor cardiac function requiring dual inotropic support, low lung compliance, inability to maintain oxygenation despite high FiO2 and PEEP, and raised intracranial pressure leading to tonsillar herniation. The patient ultimately succumbed to his condition 12 hours later.
+
+**Outcome:**
+The patient expired due to multi-organ dysfunction syndrome secondary to cerebellar hemorrhage and respiratory failure.
+
+**Recommendations:**
+- Continuous monitoring and management of patients with similar presentations.
+- Consideration of early surgical intervention in cases of significant intracranial hemorrhage when feasible.
+
+**Prepared by:**
+[Your Name]
+[Your Title]
+[Date]
