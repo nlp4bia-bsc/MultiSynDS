@@ -17,6 +17,7 @@ Likert scale features (to extract statistics) from 1 to 5:
 - Relevance to Practice: Would this summary be usable in clinical practice without significant revision?
 - Overall Quality: How would you rate the overall quality of the discharge summary?
 
-Free text features to be commented in error analysis. Not mandatory but open to express as much or as few as wanted.
-- Positive/Negative highlights of generation process
+Free text features to be commented in error analysis. They are mandatory to be filled in with non-empty text.
+- Positive highlights of generation process
+- Negative highlights of generation process
 - Other comments on Generated/Original data sources
