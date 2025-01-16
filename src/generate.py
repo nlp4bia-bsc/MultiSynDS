@@ -6,6 +6,112 @@ import glob
 import json
 # import torch
 
+def model_evaluation(model, clinical_case, discharge_summary, filenames, output_file=None, human_eval_file=None, base_filenames_path=None):
+    """
+    Evaluate clinical case summaries against discharge summaries.
+    
+    Args:
+        clinical_cases (list): List of clinical case texts.
+        discharge_summaries (list): List of discharge summary texts.
+        output_file (str): Path to save the output dictionary.
+        generate_score (callable): Function to generate scores using the AI model.
+    
+    Returns:
+        None
+        
+    Example:
+    scores = sample_df.progress_apply(lambda x: model_evaluation(pipe, x["text_orig"], x["text_gen"],filenames, "hf", human_eval_file="output/samples/en/phase_1/human_eval.csv", base_filenames_path="output/samples/en/phase_1"),
+                                        axis=1)
+    """
+
+    if (human_eval_file is not None) and (base_filenames_path is not None):
+        df_human = load_human_eval(human_eval_file) 
+        examples = create_example(filenames, df_human, base_filenames_path)
+    else:
+        print("\n\nNo human evaluation file provided. Skipping example generation.\n\n")
+        examples = ""
+    
+    
+    prompt = f"""Look at these guidelines carefully, i have also provided the dataset for you to analyze:
+    
+        Guidelines : One of the main bottlenecks for the development of clinical NLP resources if the lack of access to clinical records due to data privacy issues. This is particularly true for developments beyond English, as most of the accessible anonymized clinical record datasets are only available for this language.
+        To examine if clinical case report publications could potentially be considered as a data source to generate synthetic clinical discharge summaries by means of generative AI solutions, prompt instructions combined with automatic clinical were applied.
+        This structured summary has the purpose to systematically characterize the clinical language characteristics of synthetic discharge summaries.
+        Each discharge summary was assessed for a predefined set of features.
+        Likert scale features (to extract statistics) from 1 to 5:
+        - Content Relevance: Does the summary focus on clinically relevant information
+        - Information Completeness: Does the summary include all key details (diagnoses, treatments, follow-ups)?
+        - Clarity and Structure: Is the information presented in a clear and logically structured manner like a real discharge report?
+        - Content Accuracy: Does the report accurately reflect the clinical information provided in the input?
+        - Hallucinations: Are there any factual inaccuracies or fabricated content in the summary?
+        - Impact of Hallucinations: How severe are these hallucination (e.g. 1-2: Irrelevant content, 3: include details about the patients not in original, 4-5: medication doses, procedures, etc)
+        - Relevance to Practice: Would this summary be usable in clinical practice without significant revision?
+        - Overall Quality: How would you rate the overall quality of the discharge summary?
+        Free text features to be commented in error analysis. Not mandatory but open to express as much or as few as wanted.
+        - Positive/Negative highlights of generation process
+        - Other comments on Generated/Original data sources
+        
+        Clinical Case : {clinical_case}
+        Discharge Summary : {discharge_summary}
+        
+        Using these clinical case and discharge summary, evaluate and provide a score (1 to 5) for each feature listed above in the guidlines.
+        Only provide numeric scores for each feature; do not include comments or explanations.
+        Ensure that each score reflects a direct comparison of the clinical case and its corresponding discharge summary.
+        Just provide the score for each feature, do not provide any additional information.
+        Do not include any comments or explanations. before or after the scores
+        
+        Evaluate from 1 to five and return a json file with the following format:
+        {{"Content Relevance": <score>, "Information Completeness": <score>, "Clarity and Structure": <score>, "Content Accuracy": <score>, "Hallucinations": <score>, "Impact of Hallucinations": <score>, "Relevance to Practice": <score>, "Overall Quality": <score>, "Positive/Negative highlights of generation process": <text>, "Other comments on Generated/Original data sources": <text>}}
+        
+        """
+    
+    for example in examples:
+        prompt += example
+        
+    system_msg = "You are an expert in cardiology and you are asked to be very critical in your evaluation. Provide a score from 1 to 5 for each feature listed in the guidelines. Output format must be in JSON format without any headings, comments or explanations."
+        
+    messages = [
+        {"role": "system", "content": system_msg},
+        {"role": "user", "content": prompt},]
+        # response = generate_score(prompt)
+    
+    terminators = [
+        model.tokenizer.eos_token_id,
+        model.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+    ]
+
+    format_flag = False
+    while not format_flag:
+        
+        outputs = model(
+                        messages,
+                        max_new_tokens=1024,
+                        temperature=0.01,
+                        eos_token_id=terminators,
+                        pad_token_id=model.tokenizer.eos_token_id,
+                    )
+
+        gen_dictionary = outputs[0]["generated_text"][-1]["content"]
+        # gen_dictionary = gen_dictionary.replace("'", '"')
+
+        try:
+            gen_dictionary = json.loads(gen_dictionary)
+            # gen_dictionary = ast.literal_eval(gen_dictionary)
+
+            format_flag = True
+            return gen_dictionary
+    
+        except Exception as e:
+            print(e)
+            print(gen_dictionary)
+            print("Error in format. Generating again...")
+        
+
+    
+    # if output_file is not None:
+    #     with open(output_file, "w") as f:
+    #         json.dump(gen_dictionary, f)
+    
 def model_evaluation_cot(model, clinical_case, discharge_summary, filenames, output_file=None, human_eval_file=None, base_filenames_path=None):
     """
     Evaluate clinical case summaries against discharge summaries with a chain of thought.
@@ -113,12 +219,6 @@ def model_evaluation_cot(model, clinical_case, discharge_summary, filenames, out
             print("Error parsing JSON:", e)
             print("Generated Output:", gen_dictionary)
             print("Error in format. Generating again...")
-
-    
-    # if output_file is not None:
-    #     with open(output_file, "w") as f:
-    #         json.dump(gen_dictionary, f)
-    
 
 def load_human_eval(filename):
     df_human = pd.read_csv(filename)
