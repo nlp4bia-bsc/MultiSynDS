@@ -1,0 +1,309 @@
+filenameid,text_orig,text_gen,Content Relevance,Information Completeness,Clarity and Structure,Content Accuracy,Hallucinations,Impact of Hallucinations,Relevance to Practice,Overall Quality,Positive/Negative highlights of generation process,Other comments on Generated/Original data sources
+32997782,"In March 2017, a 67-year-old man with hypertension, type 2 diabetes, obstructive sleep apnea, coronary artery disease, stage 2 chronic kidney disease, and metastatic UM was electively admitted to undergo catheter-directed local cytokine-based IE for liver metastases. He had been diagnosed with UM approximately one year earlier and had undergone plaque brachytherapy with adjuvant valproic acid in a clinical trial. He was removed from the trial after new liver lesions were confirmed as metastatic disease. An echocardiogram 6 months before his current presentation showed normal left ventricular (LV) systolic function, mild LV diastolic dysfunction, normal RV size and function, and a normal estimated pulmonary artery (PA) pressure.
+
+On admission, the patient reported only chronic lower back pain. He was alert and oriented, with normal vital signs. Laboratory results were notable only for stable chronic kidney disease (creatinine, 1.2 mg/dL). We measured his serum levels of granulocyte-macrophage colony-stimulating factor (GM-CSF) with use of an enzyme-linked immunosorbent assay kit (R&D Systems, a Bio-Techne brand), and analyzed his serum cytokine and chemokine levels by using a bead-based Multiplex® assay with Luminex® technology (Millipore Sigma).
+
+The next morning, we entered his right hepatic artery with use of a transfemoral microcatheter. We injected 1,500 μg of GM-CSF and 2,000,000 IU of interleukin (IL)-2 suspended in 5 mL of ethiodized oil, then used interventional radiology and IE to embolize the hepatic artery with gelatin sponge particles. No procedural complications occurred, and the patient was returned to his room for overnight observation.
+
+Approximately 11 hours after IE, the patient experienced mild hypoxemia (pulse oximetry saturation, 88%) that improved when 2 L/min of supplemental oxygen was supplied through a nasal cannula. A chest radiograph showed linear atelectasis of his right lower lobe. During the next several hours, he became febrile (100.6 °F), tachycardic (106 beats/min), tachypneic (24 breaths/min), and progressively hypoxemic (pulse oximetry saturation, 94% on 6 L/min of oxygen via nasal cannula).
+
+Laboratory results included leukopenia (white blood cell count, 1.3 ×109/L; 36% lymphocytes), elevated liver enzyme levels with a hepatocellular injury pattern (total bilirubin, 1.3 mg/dL; alkaline phosphatase, 369 IU/L; aspartate aminotransferase [AST], 2,049 IU/L; and alanine aminotransferase [ALT], 1,647 IU/L), lactic acidosis (lactate, 6.5 mmol/L), an elevated cardiac troponin T level (0.08 ng/mL), an elevated N-terminal-pro-B-type natriuretic peptide level (3,711 pg/mL), and acute kidney injury (creatinine, 1.8 mg/dL). An electrocardiogram (ECG) showed sinus tachycardia with normal intervals and no ischemic changes. Ventilation-perfusion scintigraphy results were negative for segmental perfusion defects. Chest computed tomograms without contrast revealed scattered parenchymal nodules, mild interstitial edema, mild PA dilation, and, as expected, persistent embolic material within the liver. The patient's respiratory status rapidly declined during the next several hours despite aggressive intravenous diuretic and broad-spectrum antibiotic therapy. He was started on noninvasive positive-pressure ventilation and was transferred to intensive care during the morning of hospital day 3, approximately 24 hours after IE.
+
+The patient became disoriented to time and place. An echocardiogram obtained during positive-pressure ventilation showed a mildly dilated RV with hyperdynamic apical motion associated with hypokinesis of remaining segments (the McConnell sign), mild-to-moderate tricuspid insufficiency, severe pulmonary hypertension (estimated right atrial pressure, 10 mmHg; estimated PA systolic pressure, 73 mmHg), and a hyperdynamic LV without segmental wall-motion abnormalities. Concerned about possible capillary leak syndrome (CLS), we administered 8 mg of intravenous dexamethasone. Despite all interventions, the patient's respiratory and mental status continued to decline, and he needed endotracheal intubation and ventilator placement approximately 36 hours after IE.
+
+Overnight on hospital day 3, the patient's rapidly progressive hemodynamic instability necessitated multiple sequential vasopressor infusions. Serial bloodwork results included increasing transaminase levels (AST, 2,944 IU/L; ALT, 2,364 IU/L), coagulopathy (international normalized ratio, 2.14), and increased cardiac troponin T (peak level, 1.37 ng/mL). An ECG then showed sinus tachycardia with 1-mm ST-segment elevations in leads II, aVR, V1, and V2, and 2-mm ST-segment depressions in leads I, II, aVL, V5, and V6. An echocardiogram showed the McConnell sign with an underfilled and persistently hyperdynamic LV. We initiated epoprostenol inhalation therapy for acute pulmonary hypertension and acute RV failure (cor pulmonale).
+
+Echocardiograms obtained during the morning of hospital day 4 indicated progressive RV enlargement and severe global RV dysfunction, RV apical dysfunction, and a smaller, underfilled LV. A right-sided ECG revealed sinus tachycardia with 1- to 1.5-mm ST-segment elevation in leads V3R and V4R, suggesting acute RV myocardial infarction (MI). Emergency cardiac catheterization was not possible because of the patient's progressive hemodynamic instability. Systemic thrombolytic therapy was considered; however, the patient had a cardiac arrest with pulseless electrical activity, and he died.
+
+Autopsy findings included mild-to-moderate coronary artery atherosclerosis without substantial stenosis, mild bilateral pulmonary edema, and multiple liver metastases from primary UM. There was no evidence of acute MI, acute pulmonary embolism (PE), or acute myocarditis. No obvious cause of death was identified.
+
+In search of answers, we reexamined our patient's laboratory results. Before IE, his transforming growth factor β1 (TGF-β1) concentration had been 12,931 pg/mL, much higher than the mean reference level of 3,111 ± 2,464 pg/mL in 23 previous patients with UM before liver-directed IE (unpublished data). Our patient's baseline levels of IL-6 (<0.9 pg/mL), IL-8 (7.7 pg/mL), tumor necrosis factor-α (TNF-α) (7.68 pg/mL), and GM-CSF (<3 pg/mL) were similar to those of the previous patients. However, on posttreatment day 1, his IL-6 and IL-8 concentrations were 673.3 and 2,093 pg/mL, respectively; on day 2, they decreased to 448.8 and 692.2 pg/mL. On those same days, his TNF-α levels (54.9 and 8.2 pg/mL) and GM-CSF levels (11.5 and 8.9 pg/mL) did not differ greatly from those in the other patients who had undergone liver-directed IE. We considered these factors in the differential diagnosis.
+
+","**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient's Name]
+- **Age:** 67 years
+- **Gender:** Male
+- **Date of Admission:** March 2017
+- **Date of Discharge:** [Date of Discharge]
+- **Diagnosis:** Metastatic Uveal Melanoma (UM), Hypertension, Type 2 Diabetes, Obstructive Sleep Apnea, Coronary Artery Disease, Stage 2 Chronic Kidney Disease
+
+**Admission Details:**
+The patient was electively admitted for catheter-directed local cytokine-based immunoembolization (IE) for liver metastases. He had a history of UM diagnosed approximately one year prior, treated with plaque brachytherapy and valproic acid in a clinical trial, from which he was removed due to new liver lesions confirmed as metastatic disease. Prior echocardiogram indicated normal left ventricular function.
+
+**Clinical Presentation:**
+Upon admission, the patient reported chronic lower back pain. He was alert and oriented with stable vital signs. Laboratory tests revealed stable chronic kidney disease (creatinine 1.2 mg/dL).
+
+**Procedures:**
+On the following day, the right hepatic artery was accessed via a transfemoral microcatheter. The patient received 1,500 μg of GM-CSF and 2,000,000 IU of IL-2, followed by embolization with gelatin sponge particles. The procedure was uneventful, and the patient was monitored overnight.
+
+**Post-Procedure Course:**
+Approximately 11 hours post-IE, the patient developed mild hypoxemia, which improved with supplemental oxygen. He subsequently exhibited fever, tachycardia, tachypnea, and progressive hypoxemia. Laboratory findings included leukopenia, elevated liver enzymes, lactic acidosis, and acute kidney injury. An ECG showed sinus tachycardia, and imaging revealed pulmonary and hepatic changes.
+
+Despite aggressive treatment, including diuretics and antibiotics, the patient's condition deteriorated, leading to noninvasive positive-pressure ventilation and transfer to intensive care on hospital day 3. He became disoriented, and echocardiography indicated severe pulmonary hypertension and right ventricular dysfunction.
+
+**Critical Events:**
+The patient required endotracheal intubation due to respiratory failure. He experienced hemodynamic instability necessitating vasopressor support. Serial lab tests showed worsening liver function and cardiac markers, with an ECG indicating ST-segment changes suggestive of acute myocardial infarction. Emergency cardiac catheterization was not feasible due to instability.
+
+**Outcome:**
+The patient suffered a cardiac arrest with pulseless electrical activity and subsequently died. Autopsy findings revealed mild coronary artery atherosclerosis, pulmonary edema, and liver metastases, with no acute myocardial infarction or pulmonary embolism identified.
+
+**Discussion:**
+Pre-treatment laboratory analysis indicated elevated TGF-β1 levels, while post-treatment inflammatory markers showed significant fluctuations. These findings were considered in the differential diagnosis.
+
+**Plan:**
+The patient’s family has been informed of the findings and the unfortunate outcome. Further discussions regarding the management of metastatic UM and potential future treatment options will be conducted.
+
+**Signature:**
+[Physician's Name]  
+[Title]  
+[Date]",4,3,2,3,5,5,2,2,"The discharge summary provided a comprehensive overview of the patient's clinical presentation, procedures, and outcomes.","The original clinical case and discharge summary provided detailed information about the patient's medical history, procedures, and laboratory results, which were essential for evaluating the discharge summary's content and accuracy."
+34530632,"A 70-year-old man (170 cm, 48 kg, American Society of Anaesthesiologists status IV) had a history of HFrEF with dilated cardiomyopathy, diabetes mellitus, and chronic obstructive pulmonary disease. He was scheduled to undergo debridement of skin necrosis in the right leg. He had developed right leg weakness 4 months previously and was diagnosed with thrombotic occlusion of the right ilio-femoral artery. Skin necrosis appeared on the anterolateral side of the lower leg. While being treated for the skin lesion, his HF was treated with spironolactone, ivabradine, sacubitril/valsartan, and warfarin (1.5 mg) to optimise cardiopulmonary function. He had also received an implanted defibrillator 3 months previously.
+
+Despite inotropic administration, the patient’s systolic and diastolic blood pressure was 70 and 40 mmHg, respectively. His coagulation profile showed that the activated prothrombin time was 49.4 s and the prothrombin time/international normalised ratio was 1.63. However, anticoagulation therapy was continued because of the high risk of thromboembolism. The initial BNP level was 837 pg/mL, which decreased to 216 pg/mL just before surgery after treating the HF. Chest radiography showed pneumonic infiltration in the right lung (mainly in the right lower lobe) and diffuse emphysematous changes in both lungs. Preoperative transthoracic echocardiography revealed global hypokinesia with severe left ventricular dysfunction, an ejection fraction of 11%, an enlarged left atrium and ventricular chamber, and grade II diastolic dysfunction.
+
+Regional anaesthesia was considered safer than general anaesthesia because of the patient’s unstable cardiopulmonary function, but a neuraxial block was contraindicated owing to anticoagulation therapy. Therefore, we used a USG sciatic nerve and fascia iliaca compartment block to cover the operative field and avoid haemodynamic instability. However, the scheduled operation was postponed because the patient strongly requested only general anaesthesia and refused regional anaesthesia using a PNB. He had previously undergone wound dressing changes with local anaesthesia, and suffered from excruciating pain. Because of this previous experience, he was afraid that he might feel severe pain during the operation because of failure of the nerve block. Several counselling sessions were held to provide sufficient information to the patient, along with emotional support to overcome his fear and optimise the anaesthesia.
+
+Standard monitoring, including non-invasive blood pressure monitoring, three-lead electrocardiography, and pulse oximetry, were applied before the nerve block, and the left brachial artery was cannulated for continuous blood pressure monitoring. Supplemental oxygen was administered through a facial mask at 5 L/minute. The patient was positioned laterally for the popliteal sciatic nerve block. A high-frequency linear transducer (HFL38x®; SonoSite, Bothell, WA, USA) was transversely placed on the posterior aspect of the popliteal fossa, and the sciatic nerve was located. Under real-time ultrasound (M-Turbo®; SonoSite) guidance, a 25 G needle was inserted 5 cm from the popliteal crease using the in-plane approach. Once the needle tip was near the distal sciatic nerve, 40 mL of 0.375% ropivacaine was injected around the sciatic nerve after confirming negative blood aspiration. Subsequently, the patient was placed in the supine position for the fascia iliaca compartment block. Using the same ultrasound transducer, the fascia lata and fascia iliaca were checked. A 20-mL aliquot of 0.25% ropivacaine was injected into the plane between the fascia iliaca and iliopsoas muscles after checking for negative aspiration. A loss of sensation was confirmed in the surgical area after 30 minutes. The surgery commenced after confirming adequate sensory block. During the operation, the patient did not require any analgesics or rescue block, and haemodynamic parameters were stable. The patient was transferred to the intensive care unit after surgery for close monitoring because of his severely compromised cardiopulmonary function. Haemodynamic stability was confirmed and he was transferred to the general ward the next day. Thereafter, the patient underwent wound debridement twice more and finally received a skin autograft at the defect site. All of these surgical procedures were successfully performed using the same PNB techniques. After the skin graft, the patient was discharged from the hospital without any symptoms, such as dyspnoea or surgical site pain.
+
+","**Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 70 years
+- Height: 170 cm
+- Weight: 48 kg
+- ASA Status: IV
+
+**Medical History:**
+- Heart Failure with Reduced Ejection Fraction (HFrEF) due to dilated cardiomyopathy
+- Diabetes Mellitus
+- Chronic Obstructive Pulmonary Disease (COPD)
+- History of right leg weakness due to thrombotic occlusion of the right ilio-femoral artery
+
+**Admission Details:**
+- Admission Date: [Admission Date]
+- Procedure: Debridement of skin necrosis in the right leg
+- Duration of Stay: [Duration of Stay]
+
+**Clinical Findings:**
+- Skin necrosis on the anterolateral side of the lower leg
+- Initial BNP level: 837 pg/mL (decreased to 216 pg/mL pre-surgery)
+- Chest radiography indicated pneumonic infiltration in the right lung and diffuse emphysematous changes in both lungs
+- Preoperative echocardiography revealed:
+  - Global hypokinesia
+  - Severe left ventricular dysfunction (Ejection Fraction: 11%)
+  - Enlarged left atrium and ventricular chamber
+  - Grade II diastolic dysfunction
+
+**Preoperative Management:**
+- Heart failure managed with spironolactone, ivabradine, sacubitril/valsartan, and warfarin (1.5 mg)
+- Anticoagulation therapy continued due to high thromboembolism risk
+- Blood pressure: Systolic 70 mmHg, Diastolic 40 mmHg
+- Coagulation profile: Activated prothrombin time 49.4 s, INR 1.63
+
+**Anesthesia Plan:**
+- Regional anesthesia was initially considered but contraindicated due to anticoagulation therapy.
+- Patient preferred general anesthesia despite counseling regarding the benefits of regional anesthesia.
+- A popliteal sciatic nerve block and fascia iliaca compartment block were performed under ultrasound guidance.
+
+**Surgical Procedure:**
+- Surgery was performed successfully with stable hemodynamic parameters.
+- No analgesics or rescue blocks were required during the operation.
+- Postoperative care included transfer to the intensive care unit for close monitoring.
+
+**Postoperative Course:**
+- Hemodynamic stability confirmed; transferred to the general ward the following day.
+- Underwent two additional wound debridements and a skin autograft at the defect site, all performed using the same nerve block techniques.
+- No postoperative complications such as dyspnea or surgical site pain.
+
+**Discharge Condition:**
+- The patient was discharged in stable condition without any symptoms.
+- Follow-up appointments scheduled for ongoing care.
+
+**Discharge Date:** [Discharge Date]  
+**Physician:** [Physician Name]  
+**Signature:** [Signature]  
+**Date:** [Date]",4,4,4,4,2,3,4,4,"The generated discharge summary accurately reflected the clinical information provided in the input, but some minor details were missing.","The generated discharge summary was comparable to the original discharge summary, but some minor discrepancies were observed."
+30785587,"A 51-year-old male, hypertensive patient, a former smoker, was transferred for treatment of thoracic aortic dissection and heart failure.
+
+After a three-week period with progressively more intense chest pain, accompanied by dyspnea, sweating and vomiting, he was admitted to the Hospital in the city where he lived.
+
+At hospital admission, he had high blood pressure and the diagnosis of thoracic aortic dissection was made. He received antihypertensive and beta-blocker medications. On the fifth day, he was transferred to Instituto do Coração for treatment. At that moment, he was asymptomatic.
+
+The physical examination (June 14, 2012) showed good general health status, paleness, ++ / 4+, increased jugular venous pressure, heart rate of 80 bpm, blood pressure 80 x 60 mmHg; clear lungs; cardiac auscultation disclosed rhythmic heart sounds and ++++ diastolic murmur on the left sternal border, no abdominal alterations, lower limbs without edema, besides palpable and symmetrical pulses.
+
+Laboratory tests (June 14, 2012) showed hemoglobin 15.9 g/dL; hematocrit, 49%; leukocytes, 10,080/mm3 (neutrophils 64%, eosinophils 7%, lymphocytes 21%, and monocytes 8%); platelets 232,000/mm3; CKMB, 1.33 ng/mL; troponin I, 0.106 ng/mL; urea, 38 mg / dL; creatinine, 0.94 mg /dL; sodium, 137 mEq/L; potassium, 4.2 mEq/L; prpthrombin time (PT) (INR), 1.1; APTT time ratio, 0.78; AST, 30 U/L; ALT, 61 U/L; gamma-GT, 116 IU/L; alkaline phosphatase, 81 U/L; and negative serology for hepatitis B, C, and HIV.
+
+The electrocardiogram (ECG) performed on June 16, 2012 showed sinus rhythm, left atrial and left ventricular overload with strain pattern.
+
+The echocardiogram performed on June 17, 2012, disclosed the following measurements: aorta, 37 mm; left atrium, 48 mm; septal thickness and posterior wall, 9 mm; left ventricle, 87/78 mm; ejection fraction, 22%. The patient showed eccentric hypertrophy with diffuse hypokinesis; moderate mitral regurgitation; marked aortic regurgitation; ascending aortic dissection was observed, with the original intimal tear 25 mm from the valve plane. The aortic measurements at the different levels were: aortic sinus, 37 mm, sinotubular junction, 46 mm, ascending aorta, 67 mm and aortic arch, 34 mm.
+
+The posteroanterior chest X-ray performed on June 18, 2012 showed normal lung fields, aorta with an image suggestive of aneurysm, and enlarged cardiac area.
+
+The coronary angiography did not show any coronary lesions. The pressures were: aorta: (syst/diast/mean) 100/50/67 mmHg and left ventricular: (Syst/initial diast/end diast) 100/10/20 mmHg. The left ventricle showed diffuse hypokinesis. There was marked aortic regurgitation and an ascending aortic aneurysm, with an image suggestive of dissection.
+
+The patient underwent surgery for repair of the ascending aortic dissection, with the interposition of a Dacron tube and aortic valve repair (June 19, 2012). The postoperative period was uneventful, and the patient was discharged on the ninth postoperative day.
+
+Almost a month after hospital discharge (July 11, 2012), he sought emergency medical attention for worsening of dyspnea, attributed to non-adherence to the prescribed medication.
+
+The physical examination (July 11, 2012) disclosed a heart rate of 60 bpm, blood pressure 80 x 60 mmHg; clear lungs; normal cardiac auscultation, no abdominal alterations; lower limbs without edema and no signs of deep vein thrombosis, with normal pulses.
+
+The laboratory tests (July 18, 2012) showed hemoglobin 10.7 g/dL; hematocrit, 32%; leukocytes, 9,750/mm3 (band cells 1%, segmented 69%, eosinophils 8%, basophils 3%, lymphocytes 14%, monocytes 5%), platelets, 443,000/mm3, C-reactive protein, 65.05 mg/L; urea 29 mg/dL; creatinine, 0.90 mg/dL, sodium, 130 mEq/L; potassium, 4.8 mEq/L; magnesium, 1.70 mEq/L, BNP, 1280 pp / mL, venous lactate 21 mg/dL; venous gasometry: pH 7.38, pCO2, 48 mmHg; pO2, 34.9 mmHg, O2 saturation, 53.8%; bicarbonate, 26.5 mEq/L, base excess, 2 mEq/L. Blood, urine and catheter tip cultures were negative.
+
+One month after this episode he was again brought to emergency care (August 11, 2012) with dyspnea on minimal exertion, orthopnea and oliguria for two days. He denied coughing, fever, coryza or diarrhea; chest pain or palpitation. He reported correct use of medications and hydrosaline restriction.
+
+The physical examination on admission showed blood pressure of 80x60 mmHg, heart rate of 102 bpm, fine pulses and decreased peripheral perfusion; jugular venous pulse was present; rhythmic heart sounds, presence of third heart sound, mitral systolic murmur +++ / 6+, tricuspid systolic murmur +++ / 6+ and aortic systolic murmur ++ / 6+; abdominal assessment - liver palpable at 5 cm from the right costal border; palpable and symmetrical lower-limb pulses.
+
+He was started on intravenous dobutamine, vasodilator and diuretic drugs, in addition to the antibiotics vancomycin and meropenem.
+
+Laboratory tests (August 11, 2012) showed hemoglobin: 9.2 g/dL, hematocrit: 31%, leukocytes: 12,980/mm3 (neutrophils 74%, eosinophils 1%, basophils 1%, lymphocytes 19%, monocytes 5%), platelets: 395,000/mm³, C-reactive protein: 79.58 mg/dL, urea: 55 mg/dL, creatinine: 1.26 mg/dL, sodium: 135 mEq/L, potassium: 5.1 mEq/L, prothrombin time: (INR) = 1.2, APTT:(rel) = 0.97, venous lactate: 55 mg/dL
+
+The chest x-ray showed pulmonary congestion and cardiomegaly.
+
+The echocardiogram (August 13, 2012) showed the following measurements: aorta, 41 mm; left atrium, 50 mm; right ventricle, 35 mm; septum, 9 mm; posterior wall, 10 mm; left ventricle, 86 mm; ejection fraction, 20%; hypertrophic left ventricle with diffuse hypokinesis; right ventricle with moderate hypokinesis; severe mitral regurgitation; normal aortic valve; pulmonary valve with indirect signs of pulmonary hypertension; estimated pressure of 43 mmHg and presence of Dacron tube in the aorta.
+
+The transesophageal echocardiogram (August 16, 2012) also showed the presence of marked tricuspid regurgitation and no images suggestive of thrombi or vegetations were observed.
+
+The laboratory tests performed on August 12 showed hemoglobin decrease to 7.7 g/dL and no evidence of bleeding and, therefore, an upper digestive endoscopy was requested, which did not show any alterations.
+
+A Doppler ultrasonography of the lower limbs carried out due to suspicion of pulmonary thromboembolism (recent RV dysfunction) showed no signs of thrombosis. The patient then underwent a chest tomography, which identified a small consolidation on the right side, with right pleural effusion.
+
+He developed refractory shock, despite the use of antibiotics. The right pleural effusion was punctured, and the presence of transudate was identified.
+
+All blood cultures and urine cultures were negative. He required orotracheal intubation for ventilatory support on August 29, 2012, developing an increasing need for noradrenaline, and the antibiotics were replaced by daptomycin, micafungin, and rifampicin.
+
+Laboratory reassessment (September 4, 2012) showed: hemoglobin: 10 g/dL; hematocrit: 33%; leukocytes: 5,450/mm³ (neutrophils 85%, lymphocytes 10% and monocytes 5%); platelets: 313,000/mm³; C-reactive protein: 221.38 mg/L; urea: 44 mg/dL; creatinine: 2.21 mg/dL; phosphorus: 2.2 mg/dL; magnesium: 1.6 mEq/L.
+
+The patient remained in shock and died (September 4, 2012).
+
+
+Clinical aspects
+
+This was a male patient, who presented with ascending aortic dissection, and who, even after surgery for dissection repair, developed a picture of severe heart failure and died.
+
+The International Registry of Acute Aortic Dissection (IRAD) showed that patients with aortic dissection were older than our patient, 61 years; and a majority of males (63%). Regarding the diseases related to the dissection, they were: Marfan syndrome (6.7%), hypertension (69.3%), atherosclerosis (24.4%), previously known aortic aneurysm (12.4%), previous aortic dissection 3.9%) and diabetes mellitus (4.3%). Also, 15.9% had a history of previous cardiac surgery and iatrogenic cause in 4.8% (1.7% coronary angiography and 3.1% after cardiac surgery). The 2015 update of the same registry, with a ten-fold higher number of patients, showed an increase in hypertension (75.5%) and a decrease in the presence of Marfan syndrome (4.5%), (75.5%), atherosclerosis (19.6%) and previous cardiac surgery (10.6%).
+
+Genetic tests can be performed in the presence of aortic aneurysm in younger patients. The syndromes related to the presence of aortic aneurysms are Marfan, Loeys-Dietz, Ehler-Danlos syndromes, the cutis laxa or elastolysis and that related to a defect in the transforming growth factor beta (TGFβ).
+
+Classically, the genetic alterations found in Marfan syndrome are related to the fibrillin-1 gene. Changes in the physical examination involve ocular (myopia, ectopia lentis, and risk of retinal detachment), skeletal (exaggerated growth and joint laxity, exaggerated growth of the extremities) and cardiovascular alterations (dilation of the aorta at the level of the sinuses of Valsalva, predisposing to dissection). In the present case, we do not have a description of these phenotypic changes that might suggest such diagnosis.
+
+Loeys-Dietz syndrome includes several manifestations similar to those of Marfan Syndrome, but they also include hypertelorism, broad or bifid uvula, cleft palate and generalized arterial tortuosity, aneurysms, and arterial dissection. Generally no increase of extremities and ocular alterations are observed.
+
+As well as for Marfan syndrome, we do not have evidence in the present case to suggest such a diagnosis.
+
+The Ehler-Danlos syndrome is characterized by fragility of the connective tissue and the manifestations occur in the skin (hyperelasticity, atrophic scars and easy ecchymosis), joints (hypermotility, frequent dislocations and arthralgias) and vessels (aneurysms and spontaneous vessel ruptures). The vascular form, in which dissection occurs most frequently, occurs through a mutation in the alpha-1 gene of type III collagen, with a silent substitution that leads to the replacement of glycine in the collagen chain.
+
+We also have no clinical evidence of such changes in the present case. A more recent study showed gene panel alterations in 25% of patients with aortic aneurysms.
+
+What should be taken into account is that even today the criterion for the indication of surgical treatment for rupture prevention remains the diameter of the aneurysm, 50 mm.
+
+In the present case, the patient had arterial hypertension and it must have had an important role in the development of the thoracic aneurysm and its rupture. Biomechanical studies show that for hypertension to lead an aneurysm development, there must be concomitant failure in the composition and maintenance of the extracellular matrix and membrane receptors. Consequently, there is damage to the mechanical stress transduction in the cell-signaling response.
+
+Regarding the patient’s unfavorable evolution after the surgery, it is probably due to the long evolution of the aortic aneurysm with aortic valve regurgitation, leading to left ventricular dilation and severe dysfunction, which in the very late states do not undergo regression or relief despite valve replacement surgery and progress to progressive heart failure. The ECG disclosed left ventricular overload with strain and the echocardiogram showed large left ventricular dilation and marked dysfunction.
+
+The European Guidelines of Cardiology and Thoracic Surgery recommends valve replacement surgery in patients with aortic dilation or aortic regurgitation accentuated with symptoms. In asymptomatic patients, this recommendation appears if there is reduction in ejection fraction (<50%) or ventricular dilation (diastolic diameter >70 mm or diastolic >50 mm).
+
+The patient had degrees of dilation (diastolic diameter, 87 mm and systolic diameter, 78 mm) and ventricular dysfunction (ejection fraction of 22%) well beyond those recommended for the indication of valve replacement surgery.
+
+This is the most plausible explanation for the poor evolution. (Dr. Desiderio Favarato)
+
+Diagnostic hypotheses: Aneurysm in the thoracic aorta, chronic aortic valve regurgitation, aortic dissection. Etiology: arterial hypertension and extracellular matrix disease of the aorta. Final clinical picture: cardiogenic shock due to valvular heart disease. (Dr. Desiderio Favarato)
+
+
+Necropsy
+
+The heart weighed 890g, with marked increase in volume and dilation of all chambers, predominantly the ventricles. The atrioventricular valves showed no abnormalities. The aortic valve showed thickening of the free margins of the semilunar leaflets, with a central non-coaptation aspect, compatible with valve regurgitation. A corrugated tube replaced the ascending aorta and was sutured just above the aortic sinotubular junction. Around the junction area between the ascending aorta and the ventricular mass, we noticed cavitation with irregular margins, partially filled by liquefied material, of a yellowish-brown color. There was also a concave circular lesion of the aortic intima, with 1.5 cm in diameter, just below the emergence of the renal arteries. The lungs showed areas of wine-colored parenchyma condensation, triangular in shape when sectioned. There were signs of generalized visceral congestion, as well as ascites (700 mL) and bilateral pleural effusion (200mL in each hemithorax).
+
+
+Histological examination showed accumulation of mucoid material in the tunica media throughout the aorta, as well as focal rupture of elastic fibers in the cavitary lesion described in the abdominal aorta. The anatomopathological study of the peri-aortic cavitary lesion showed mixed inflammation, with necrotic cellular and polymorphonuclear neutrophil debris, among sutures and other synthetic materials. Bacterial and fungal tests were negative at this site. The aortic valve showed fibrous thickening of the margins. There was chronic passive visceral congestion, with hepatic centrolobular necrosis; the wine-colored lesions in the lungs corresponded to recent infarctions. (Dr. Vera Demarchi Aiello)
+
+
+Anatomopathological diagnoses
+
+- Post-surgical correction of acute dissection of the ascending aorta
+- Peri-aortic cavitary lesion, with mixed inflammatory reaction, without the identification of infectious agents
+- Intramural dissection located in the abdominal aorta
+- Aortic valve regurgitation
+- Recent pulmonary infarctions
+Cause of death: Congestive heart failure with terminal shock (Dr. Vera Demarchi Aiello)
+
+","**Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient Name]
+- **Age:** 51 years
+- **Gender:** Male
+- **Medical History:** Hypertension, former smoker
+
+**Admission Details:**
+- **Date of Admission:** [Initial Admission Date]
+- **Transfer to Instituto do Coração:** June 14, 2012
+- **Reason for Transfer:** Treatment of thoracic aortic dissection and heart failure.
+
+**Clinical Presentation:**
+The patient presented with a three-week history of progressively worsening chest pain, dyspnea, sweating, and vomiting. Upon admission, he exhibited high blood pressure and was diagnosed with thoracic aortic dissection. He received antihypertensive and beta-blocker therapy.
+
+**Physical Examination on Admission (June 14, 2012):**
+- General health: Good
+- Vital signs: Heart rate 80 bpm, Blood pressure 80/60 mmHg
+- Jugular venous pressure: Increased
+- Cardiac auscultation: Rhythmic heart sounds, ++++ diastolic murmur at left sternal border
+- Lungs: Clear
+- Abdomen: No alterations
+- Lower limbs: No edema, symmetrical pulses
+
+**Laboratory Findings (June 14, 2012):**
+- Hemoglobin: 15.9 g/dL
+- Hematocrit: 49%
+- Leukocytes: 10,080/mm³
+- Platelets: 232,000/mm³
+- CKMB: 1.33 ng/mL
+- Troponin I: 0.106 ng/mL
+- Creatinine: 0.94 mg/dL
+- Negative serology for hepatitis B, C, and HIV
+
+**Imaging Studies:**
+- **ECG (June 16, 2012):** Sinus rhythm, left atrial and left ventricular overload.
+- **Echocardiogram (June 17, 2012):** Ejection fraction 22%, ascending aortic dissection observed.
+- **Chest X-ray (June 18, 2012):** Normal lung fields, suggestive of aortic aneurysm.
+
+**Surgical Intervention:**
+- **Date:** June 19, 2012
+- **Procedure:** Repair of ascending aortic dissection with Dacron tube interposition and aortic valve repair.
+- **Postoperative Course:** Uncomplicated; discharged on the ninth postoperative day.
+
+**Subsequent Admissions:**
+1. **Date:** July 11, 2012
+   - **Reason:** Worsening dyspnea due to non-adherence to medication.
+   - **Findings:** Blood pressure 80/60 mmHg, heart rate 60 bpm, laboratory tests indicated anemia and elevated BNP.
+
+2. **Date:** August 11, 2012
+   - **Reason:** Dyspnea on exertion, orthopnea, oliguria.
+   - **Findings:** Blood pressure 80/60 mmHg, heart rate 102 bpm, pulmonary congestion on chest X-ray, severe heart failure noted.
+
+**Final Admission:**
+- **Date:** August 29, 2012
+- **Condition:** Developed refractory shock, required intubation and increased vasopressor support.
+- **Laboratory Findings:** Persistent anemia, elevated creatinine, and signs of infection.
+
+**Outcome:**
+- The patient remained in shock and passed away on September 4, 2012.
+
+**Clinical Summary:**
+The patient presented with ascending aortic dissection and underwent surgical repair. Despite initial recovery, he developed severe heart failure and ultimately succumbed to cardiogenic shock. Contributing factors included chronic hypertension and significant left ventricular dysfunction.
+
+**Anatomopathological Findings:**
+- Post-surgical changes consistent with aortic dissection repair.
+- Evidence of aortic valve regurgitation and pulmonary infarctions.
+- Cause of death: Congestive heart failure with terminal shock.
+
+**Recommendations for Future Care:**
+- Close monitoring for patients with a history of aortic dissection and heart failure.
+- Consideration of genetic counseling for potential connective tissue disorders in younger patients with aortic aneurysms.
+
+**Prepared by:**
+[Your Name]
+[Your Title]
+[Date]",4,5,3,4,2,4,2,3,The generated discharge summary was generally accurate but lacked some clinical details.,"The original clinical case and discharge summary provided a comprehensive overview of the patient's condition, but the generated discharge summary could benefit from more specific details about the patient's symptoms and laboratory results."

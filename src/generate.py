@@ -135,30 +135,35 @@ def model_evaluation_cot(model, clinical_case, discharge_summary, filenames, out
     else:
         print("\n\nNo human evaluation file provided. Skipping example generation.\n\n")
         examples = ""
-
-    # Chain of thought prompt
-    prompt = f"""Look at these guidelines carefully. I have provided the dataset for you to analyze:
-
+    prompt = f"""Look at these guidelines carefully, i have also provided the dataset for you to analyze:
+    
         Guidelines : One of the main bottlenecks for the development of clinical NLP resources if the lack of access to clinical records due to data privacy issues. This is particularly true for developments beyond English, as most of the accessible anonymized clinical record datasets are only available for this language.
         To examine if clinical case report publications could potentially be considered as a data source to generate synthetic clinical discharge summaries by means of generative AI solutions, prompt instructions combined with automatic clinical were applied.
         This structured summary has the purpose to systematically characterize the clinical language characteristics of synthetic discharge summaries.
-        
         Each discharge summary was assessed for a predefined set of features.
-        
         Likert scale features (to extract statistics) from 1 to 5:
-        - Content Relevance: Does the summary focus on clinically relevant information?
+        - Content Relevance: Does the summary focus on clinically relevant information
         - Information Completeness: Does the summary include all key details (diagnoses, treatments, follow-ups)?
         - Clarity and Structure: Is the information presented in a clear and logically structured manner like a real discharge report?
         - Content Accuracy: Does the report accurately reflect the clinical information provided in the input?
         - Hallucinations: Are there any factual inaccuracies or fabricated content in the summary?
-        - Impact of Hallucinations: How severe are these hallucinations (e.g., 1-2: Irrelevant content, 3: fabricated details about the patient, 4-5: medication doses, procedures, etc.)?
+        - Impact of Hallucinations: How severe are these hallucination (e.g. 1-2: Irrelevant content, 3: include details about the patients not in original, 4-5: medication doses, procedures, etc)
         - Relevance to Practice: Would this summary be usable in clinical practice without significant revision?
         - Overall Quality: How would you rate the overall quality of the discharge summary?
+        Free text features to be commented in error analysis. Not mandatory but open to express as much or as few as wanted.
+        - Positive/Negative highlights of generation process
+        - Other comments on Generated/Original data sources
         
-        Clinical Case: {clinical_case}
-        Discharge Summary: {discharge_summary}
+        Clinical Case : {clinical_case}
+        Discharge Summary : {discharge_summary}
         
-        Please follow a chain of thought to evaluate each feature step-by-step:
+        Using these clinical case and discharge summary, evaluate and provide a score (1 to 5) for each feature listed above in the guidlines.
+        Only provide numeric scores for each feature; do not include comments or explanations.
+        Ensure that each score reflects a direct comparison of the clinical case and its corresponding discharge summary.
+        Just provide the score for each feature, do not provide any additional information.
+        Do not include any comments or explanations. before or after the scores
+        
+         Please follow a chain of thought to evaluate each feature step-by-step:
         
         Step 1: For **Content Relevance**, check if the summary captures all clinically relevant details from the clinical case.
         Step 2: For **Information Completeness**, verify if all critical details, such as diagnoses, treatments, and follow-ups, are included.
@@ -168,27 +173,16 @@ def model_evaluation_cot(model, clinical_case, discharge_summary, filenames, out
         Step 6: For **Impact of Hallucinations**, determine how severe any hallucinations are if they exist.
         Step 7: For **Relevance to Practice**, consider if the summary can be used in a clinical setting without substantial changes.
         Step 8: For **Overall Quality**, provide an overarching score based on all the above features.
+                
+        Using this chain of thought, evaluate from 1 to 5 and return a json file with the following format:
+        {{"Content Relevance": <score>, "Information Completeness": <score>, "Clarity and Structure": <score>, "Content Accuracy": <score>, "Hallucinations": <score>, "Impact of Hallucinations": <score>, "Relevance to Practice": <score>, "Overall Quality": <score>, "Positive/Negative highlights of generation process": <text>, "Other comments on Generated/Original data sources": <text>}}
         
-        Using this chain of thought, evaluate from 1 to 5 and return a JSON file with the following format:
-        {{
-            "Content Relevance": <score>,
-            "Information Completeness": <score>,
-            "Clarity and Structure": <score>,
-            "Content Accuracy": <score>,
-            "Hallucinations": <score>,
-            "Impact of Hallucinations": <score>,
-            "Relevance to Practice": <score>,
-            "Overall Quality": <score>,
-            "Positive highlights of generation process": "<text>",
-            "Negative highlights of generation process": "<text>",
-            "Other comments on Generated/Original data sources": "<text>"
-        }}
-    """
-
+        """
+    
     for example in examples:
         prompt += example
 
-    system_msg = "You are an expert in clinical evaluations and must provide critical feedback based on the chain of thought. Follow the guidelines step-by-step to score each feature accurately."
+    system_msg = "You are an expert in cardiology and you are asked to be very critical in your evaluation. Provide a score from 1 to 5 for each feature listed in the guidelines. Output format must be in JSON format without any headings, comments or explanations."
     messages = [
         {"role": "system", "content": system_msg},
         {"role": "user", "content": prompt},
