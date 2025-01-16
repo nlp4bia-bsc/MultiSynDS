@@ -1,0 +1,241 @@
+Guidelines: To use few-shot learning with LLMs as a judge for evaluating clinical discharge summaries, it is essential to adhere to a structured chain of thought. This involves applying guidelines both to the main clinical case and the examples provided. The process includes a systematic approach to ensure consistency and accurate evaluations.
+
+### Guidelines for Evaluation:
+
+#### Structured Evaluation:
+
+Each discharge summary will be assessed based on predefined features using a Likert scale from 1 to 5. Additionally, free-text commentary will be provided for error analysis. The evaluation process involves the following features:
+
+**Likert Scale Features (1 to 5):**
+
+1. **Content Relevance**: Does the summary focus on clinically relevant information?
+2. **Information Completeness**: Does the summary include all key details (diagnoses, treatments, follow-ups)?
+3. **Clarity and Structure**: Is the information presented in a clear and logically structured manner, akin to a real discharge report?
+4. **Content Accuracy**: Does the report accurately reflect the clinical information provided in the input?
+5. **Hallucinations**: Are there any factual inaccuracies or fabricated content in the summary?
+6. **Impact of Hallucinations**: How severe are these hallucinations (e.g., 1-2: irrelevant content, 3: fabricated patient details, 4-5: fabricated medication doses, procedures, etc.)?
+7. **Relevance to Practice**: Would this summary be usable in clinical practice without significant revision?
+8. **Overall Quality**: How would you rate the overall quality of the discharge summary?
+
+**Free-Text Features for Error Analysis (Optional):**
+
+1. Positive/Negative highlights of the generation process.
+2. Additional comments on the generated/original data sources.
+
+### Application to Examples and Main Case:
+
+#### Process Steps:
+
+1. **Analyze the Clinical Case:**
+
+   - Thoroughly review the clinical case details.
+   - Highlight key elements such as diagnoses, procedures, clinical presentations, and outcomes.
+
+2. **Review the Discharge Summary:**
+
+   - Cross-check the summary against the clinical case.
+   - Identify omissions, fabrications, or inaccuracies.
+
+3. **Assign Scores:**
+
+   - Evaluate each feature (Content Relevance, Information Completeness, etc.) on a scale of 1 to 5.
+   - Use objective comparisons between the case and summary to determine scores.
+
+4. **Provide Feedback (Optional):**
+
+   - Highlight positive aspects, such as well-structured information or accurate reflections of clinical data.
+   - Note negative aspects, such as omitted critical information or hallucinations.
+
+5. **Generate Output:**
+
+   - Return a JSON object with scores for each feature and optional free-text commentary for detailed insights.
+
+#### Example Format for Evaluation:
+
+
+{
+  "Content Relevance": <score>,
+  "Information Completeness": <score>,
+  "Clarity and Structure": <score>,
+  "Content Accuracy": <score>,
+  "Hallucinations": <score>,
+  "Impact of Hallucinations": <score>,
+  "Relevance to Practice": <score>,
+  "Overall Quality": <score>,
+  "Positive highlights of generation process": "<text>",
+  "Negative highlights of generation process": "<text>",
+  "Other comments on Generated/Original data sources": "<text>"
+}
+
+
+#### Evaluation for Main Case and Examples:
+
+1. **Main Case:**
+
+   - Use the provided clinical case and discharge summary for detailed evaluation.
+   - Ensure all Likert scale features are scored accurately based on the given guidelines.
+
+2. **Examples:**
+
+   - Apply the same process to evaluate examples provided in the dataset.
+   - Ensure consistency in scoring and feedback across all cases.
+
+#### Note:
+
+- Focus on objective and consistent evaluations.
+- Do not include comments or explanations outside the designated JSON format.
+- Ensure all scores reflect a direct comparison between the clinical case and its corresponding discharge summary.
+
+---
+
+### Example:
+
+#### Clinical Case:
+
+A 50-year-old man presented to his primary care provider with a 2-week history of progressively worsening dyspnea on exertion and chest discomfort while in the flat position. He described his dyspnea as a feeling of “breathing through a straw.” Additional symptoms included a weight gain of 5 kg in the prior 3 weeks, increased abdominal girth, and paroxysmal nocturnal dyspnea. He also noticed a decline in exercise tolerance from a prior ability to ascend 9 flights of stairs to tolerating only a few steps. He denied fevers, chills, night sweats, palpitations, lightheadedness, or dizziness. He had no recent upper respiratory illness symptoms, such as nasal congestion, sore throat, cough, or sinus pain. His medical history was notable for a small, congenital ventricular septal defect (VSD), obesity (body mass index, 35 kg/m2) and seasonal allergies. His only medication included fexofenadine. He never used tobacco products and reported an average alcohol intake of 2 to 3 beverages per week. In terms of family history, he has a brother with a history of atrial fibrillation; otherwise, there was no family medical history of heart failure or premature coronary artery disease. On physical examination, he was tachycardic with a heart rate of 148 beats per minute with an irregularly irregular rhythm, bibasilar crackles, abdominal distention, jugular venous distension, hepatojugular reflux, and 1+, symmetric, bilateral lower extremity pitting edema.
+
+#### Step-by-Step Explanation and Reasoning:
+
+1. **Content Relevance:**
+   - Evaluate if the discharge summary captures all critical clinical aspects, such as the patient's symptoms (dyspnea, paroxysmal nocturnal dyspnea), medical history (obesity, VSD), and examination findings (tachycardia, crackles).
+   - Score: 5, as the discharge summary includes all relevant details matching the clinical case.
+
+2. **Information Completeness:**
+   - Ensure the summary includes key diagnostics (e.g., LVEF, ECG, TTE findings), treatments (e.g., furosemide, metoprolol, cardioversion), and follow-ups.
+   - Score: 5, as all critical elements are present and well-documented.
+
+3. **Clarity and Structure:**
+   - Assess the logical flow of information, including well-defined sections (e.g., Chief Complaint, History of Present Illness).
+   - Score: 5, as the structure mirrors a standard clinical discharge report.
+
+4. **Content Accuracy:**
+   - Verify that reported information (e.g., medical history, diagnostics, and outcomes) aligns with the clinical case.
+   - Score: 5, as there are no inaccuracies in the presented data.
+
+5. **Hallucinations:**
+   - Check for fabricated or irrelevant content not supported by the clinical case.
+   - Score: 1, as there are no fabricated details.
+
+6. **Impact of Hallucinations:**
+   - Measure the clinical significance of any hallucinated content, if present.
+   - Score: 1, as no hallucinations impact the summary.
+
+7. **Relevance to Practice:**
+   - Judge whether the summary is practically usable for clinical decision-making.
+   - Score: 5, as the discharge summary meets clinical usability standards.
+
+8. **Overall Quality:**
+   - Provide an overarching score reflecting all aspects of the summary.
+   - Score: 5, as the summary is comprehensive, accurate, and well-structured.
+
+#### Discharge Summary:
+
+**Patient Information:**
+
+- Name: [Patient Name]
+- Age: 50 years
+- Gender: Male
+- Date of Admission: [Admission Date]
+- Date of Discharge: [Discharge Date]
+
+**Chief Complaint:**
+Progressively worsening dyspnea on exertion and chest discomfort.
+
+**History of Present Illness:**
+The patient presented with a 2-week history of dyspnea described as "breathing through a straw," accompanied by chest discomfort while lying flat. He reported a weight gain of 5 kg over the past 3 weeks, increased abdominal girth, and episodes of paroxysmal nocturnal dyspnea. His exercise tolerance declined significantly, from being able to ascend 9 flights of stairs to only tolerating a few steps. He denied any fevers, chills, night sweats, palpitations, lightheadedness, or dizziness, and had no recent upper respiratory symptoms.
+
+**Past Medical History:**
+
+- Congenital ventricular septal defect (VSD)
+- Obesity (BMI: 35 kg/m²)
+- Seasonal allergies
+
+**Medications:**
+
+- Fexofenadine
+
+**Social History:**
+
+- Non-smoker
+- Alcohol intake: 2-3 beverages per week
+
+**Family History:**
+
+- Brother with atrial fibrillation; no family history of heart failure or premature coronary artery disease.
+
+**Physical Examination:**
+
+- Vital Signs: Tachycardic at 148 bpm, irregularly irregular rhythm
+- Respiratory: Bibasilar crackles
+- Cardiovascular: Jugular venous distension, hepatojugular reflux
+- Abdomen: Distended
+- Extremities: 1+ symmetric bilateral lower extremity pitting edema
+
+**Diagnostic Studies:**
+
+- **Laboratory Results:**
+
+  - Hemoglobin: 16.0 g/dL
+  - Sodium: 143 mmol/L
+  - Creatinine: 1.2 mg/dL
+  - Lipid Panel: LDL 77 U/L, HDL 54 mg/dL, Triglycerides 88 mg/dL, Total Cholesterol 137 mg/dL
+  - TSH: 2.0 mlU/L
+
+- **Electrocardiogram (ECG):** Atrial fibrillation with rapid ventricular response (RVR) at 148 bpm, no ischemic changes.
+
+- **Chest Radiography:** Mild cardiomegaly.
+
+- **Transthoracic Echocardiogram (TTE):** LVEF 25%, severe left ventricular hypokinesis, moderate right ventricular enlargement, severe left atrial enlargement, functional severe mitral and tricuspid regurgitation.
+
+**Diagnosis:**
+Heart failure with reduced ejection fraction (HFrEF) likely due to tachycardia-induced cardiomyopathy.
+
+**Treatment:**
+
+- Initiated on furosemide and metoprolol tartrate for heart failure management.
+- Transitioned to carvedilol for beta blockade.
+- Started on lisinopril and long-term apixaban for anticoagulation.
+- Underwent successful TEE-guided direct cardioversion after unsuccessful attempts with medication.
+- Amiodarone was initiated post-cardioversion due to severe left atrial enlargement.
+
+**Follow-Up:**
+
+- Repeated TTE showed improvement in EF to 52% after 2 months, but subsequent decline to 35-40% with recurrent atrial fibrillation episodes.
+- Underwent repeat direct current cardioversion, followed by a rhythm control strategy with atrial fibrillation ablative therapy.
+- At 6-month follow-up, the patient remained asymptomatic with maintained EF of 61%.
+
+**Plan:**
+
+- Continue monitoring cardiac function and adjust medications as necessary.
+- Discuss potential long-term effects of amiodarone and consider alternatives if needed.
+- Schedule regular follow-up appointments to monitor heart failure status and rhythm control.
+
+**Discharge Instructions:**
+
+- Adhere to prescribed medication regimen.
+- Monitor weight and report any significant changes.
+- Maintain follow-up appointments with cardiology and primary care.
+- Educate on signs of worsening heart failure and when to seek medical attention.
+
+**Physician's Signature:**
+[Physician Name, Title]  
+[Date]
+
+#### Evaluation Scores:
+
+
+{
+  "Content Relevance": 5,
+  "Information Completeness": 5,
+  "Clarity and Structure": 5,
+  "Content Accuracy": 5,
+  "Hallucinations": 1,
+  "Impact of Hallucinations": 1,
+  "Relevance to Practice": 5,
+  "Overall Quality": 5,
+  "Positive highlights of generation process": "Highly accurate in the diagnosis. An excellent overall performance.",
+  "Negative highlights of generation process": "Omitted information: ECG Holter and EKG after CV (both are important in FA clinical cases).",
+  "Other comments on Generated/Original data sources": null
+}
+
+
