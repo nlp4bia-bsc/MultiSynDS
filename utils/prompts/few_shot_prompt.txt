@@ -1,0 +1,291 @@
+Look at these guidelines carefully, i have also provided the dataset for you to analyze:
+    
+        Guidelines : One of the main bottlenecks for the development of clinical NLP resources if the lack of access to clinical records due to data privacy issues. This is particularly true for developments beyond English, as most of the accessible anonymized clinical record datasets are only available for this language.
+        To examine if clinical case report publications could potentially be considered as a data source to generate synthetic clinical discharge summaries by means of generative AI solutions, prompt instructions combined with automatic clinical were applied.
+        This structured summary has the purpose to systematically characterize the clinical language characteristics of synthetic discharge summaries.
+        Each discharge summary was assessed for a predefined set of features.
+        Likert scale features (to extract statistics) from 1 to 5:
+        - Content Relevance: Does the summary focus on clinically relevant information
+        - Information Completeness: Does the summary include all key details (diagnoses, treatments, follow-ups)?
+        - Clarity and Structure: Is the information presented in a clear and logically structured manner like a real discharge report?
+        - Content Accuracy: Does the report accurately reflect the clinical information provided in the input?
+        - Hallucinations: Are there any factual inaccuracies or fabricated content in the summary?
+        - Impact of Hallucinations: How severe are these hallucination (e.g. 1-2: Irrelevant content, 3: include details about the patients not in original, 4-5: medication doses, procedures, etc)
+        - Relevance to Practice: Would this summary be usable in clinical practice without significant revision?
+        - Overall Quality: How would you rate the overall quality of the discharge summary?
+        Free text features to be commented in error analysis. Not mandatory but open to express as much or as few as wanted.
+        - Positive/Negative highlights of generation process
+        - Other comments on Generated/Original data sources
+        
+        Clinical Case : In March 2017, a 67-year-old man with hypertension, type 2 diabetes, obstructive sleep apnea, coronary artery disease, stage 2 chronic kidney disease, and metastatic UM was electively admitted to undergo catheter-directed local cytokine-based IE for liver metastases. He had been diagnosed with UM approximately one year earlier and had undergone plaque brachytherapy with adjuvant valproic acid in a clinical trial. He was removed from the trial after new liver lesions were confirmed as metastatic disease. An echocardiogram 6 months before his current presentation showed normal left ventricular (LV) systolic function, mild LV diastolic dysfunction, normal RV size and function, and a normal estimated pulmonary artery (PA) pressure.
+
+On admission, the patient reported only chronic lower back pain. He was alert and oriented, with normal vital signs. Laboratory results were notable only for stable chronic kidney disease (creatinine, 1.2 mg/dL). We measured his serum levels of granulocyte-macrophage colony-stimulating factor (GM-CSF) with use of an enzyme-linked immunosorbent assay kit (R&D Systems, a Bio-Techne brand), and analyzed his serum cytokine and chemokine levels by using a bead-based Multiplex® assay with Luminex® technology (Millipore Sigma).
+
+The next morning, we entered his right hepatic artery with use of a transfemoral microcatheter. We injected 1,500 μg of GM-CSF and 2,000,000 IU of interleukin (IL)-2 suspended in 5 mL of ethiodized oil, then used interventional radiology and IE to embolize the hepatic artery with gelatin sponge particles. No procedural complications occurred, and the patient was returned to his room for overnight observation.
+
+Approximately 11 hours after IE, the patient experienced mild hypoxemia (pulse oximetry saturation, 88%) that improved when 2 L/min of supplemental oxygen was supplied through a nasal cannula. A chest radiograph showed linear atelectasis of his right lower lobe. During the next several hours, he became febrile (100.6 °F), tachycardic (106 beats/min), tachypneic (24 breaths/min), and progressively hypoxemic (pulse oximetry saturation, 94% on 6 L/min of oxygen via nasal cannula).
+
+Laboratory results included leukopenia (white blood cell count, 1.3 ×109/L; 36% lymphocytes), elevated liver enzyme levels with a hepatocellular injury pattern (total bilirubin, 1.3 mg/dL; alkaline phosphatase, 369 IU/L; aspartate aminotransferase [AST], 2,049 IU/L; and alanine aminotransferase [ALT], 1,647 IU/L), lactic acidosis (lactate, 6.5 mmol/L), an elevated cardiac troponin T level (0.08 ng/mL), an elevated N-terminal-pro-B-type natriuretic peptide level (3,711 pg/mL), and acute kidney injury (creatinine, 1.8 mg/dL). An electrocardiogram (ECG) showed sinus tachycardia with normal intervals and no ischemic changes. Ventilation-perfusion scintigraphy results were negative for segmental perfusion defects. Chest computed tomograms without contrast revealed scattered parenchymal nodules, mild interstitial edema, mild PA dilation, and, as expected, persistent embolic material within the liver. The patient's respiratory status rapidly declined during the next several hours despite aggressive intravenous diuretic and broad-spectrum antibiotic therapy. He was started on noninvasive positive-pressure ventilation and was transferred to intensive care during the morning of hospital day 3, approximately 24 hours after IE.
+
+The patient became disoriented to time and place. An echocardiogram obtained during positive-pressure ventilation showed a mildly dilated RV with hyperdynamic apical motion associated with hypokinesis of remaining segments (the McConnell sign), mild-to-moderate tricuspid insufficiency, severe pulmonary hypertension (estimated right atrial pressure, 10 mmHg; estimated PA systolic pressure, 73 mmHg), and a hyperdynamic LV without segmental wall-motion abnormalities. Concerned about possible capillary leak syndrome (CLS), we administered 8 mg of intravenous dexamethasone. Despite all interventions, the patient's respiratory and mental status continued to decline, and he needed endotracheal intubation and ventilator placement approximately 36 hours after IE.
+
+Overnight on hospital day 3, the patient's rapidly progressive hemodynamic instability necessitated multiple sequential vasopressor infusions. Serial bloodwork results included increasing transaminase levels (AST, 2,944 IU/L; ALT, 2,364 IU/L), coagulopathy (international normalized ratio, 2.14), and increased cardiac troponin T (peak level, 1.37 ng/mL). An ECG then showed sinus tachycardia with 1-mm ST-segment elevations in leads II, aVR, V1, and V2, and 2-mm ST-segment depressions in leads I, II, aVL, V5, and V6. An echocardiogram showed the McConnell sign with an underfilled and persistently hyperdynamic LV. We initiated epoprostenol inhalation therapy for acute pulmonary hypertension and acute RV failure (cor pulmonale).
+
+Echocardiograms obtained during the morning of hospital day 4 indicated progressive RV enlargement and severe global RV dysfunction, RV apical dysfunction, and a smaller, underfilled LV. A right-sided ECG revealed sinus tachycardia with 1- to 1.5-mm ST-segment elevation in leads V3R and V4R, suggesting acute RV myocardial infarction (MI). Emergency cardiac catheterization was not possible because of the patient's progressive hemodynamic instability. Systemic thrombolytic therapy was considered; however, the patient had a cardiac arrest with pulseless electrical activity, and he died.
+
+Autopsy findings included mild-to-moderate coronary artery atherosclerosis without substantial stenosis, mild bilateral pulmonary edema, and multiple liver metastases from primary UM. There was no evidence of acute MI, acute pulmonary embolism (PE), or acute myocarditis. No obvious cause of death was identified.
+
+In search of answers, we reexamined our patient's laboratory results. Before IE, his transforming growth factor β1 (TGF-β1) concentration had been 12,931 pg/mL, much higher than the mean reference level of 3,111 ± 2,464 pg/mL in 23 previous patients with UM before liver-directed IE (unpublished data). Our patient's baseline levels of IL-6 (<0.9 pg/mL), IL-8 (7.7 pg/mL), tumor necrosis factor-α (TNF-α) (7.68 pg/mL), and GM-CSF (<3 pg/mL) were similar to those of the previous patients. However, on posttreatment day 1, his IL-6 and IL-8 concentrations were 673.3 and 2,093 pg/mL, respectively; on day 2, they decreased to 448.8 and 692.2 pg/mL. On those same days, his TNF-α levels (54.9 and 8.2 pg/mL) and GM-CSF levels (11.5 and 8.9 pg/mL) did not differ greatly from those in the other patients who had undergone liver-directed IE. We considered these factors in the differential diagnosis.
+
+
+        Discharge Summary : **Discharge Summary**
+
+**Patient Information:**
+- **Name:** [Patient's Name]
+- **Age:** 67 years
+- **Gender:** Male
+- **Date of Admission:** March 2017
+- **Date of Discharge:** [Date of Discharge]
+- **Diagnosis:** Metastatic Uveal Melanoma (UM), Hypertension, Type 2 Diabetes, Obstructive Sleep Apnea, Coronary Artery Disease, Stage 2 Chronic Kidney Disease
+
+**Admission Details:**
+The patient was electively admitted for catheter-directed local cytokine-based immunoembolization (IE) for liver metastases. He had a history of UM diagnosed approximately one year prior, treated with plaque brachytherapy and valproic acid in a clinical trial, from which he was removed due to new liver lesions confirmed as metastatic disease. Prior echocardiogram indicated normal left ventricular function.
+
+**Clinical Presentation:**
+Upon admission, the patient reported chronic lower back pain. He was alert and oriented with stable vital signs. Laboratory tests revealed stable chronic kidney disease (creatinine 1.2 mg/dL).
+
+**Procedures:**
+On the following day, the right hepatic artery was accessed via a transfemoral microcatheter. The patient received 1,500 μg of GM-CSF and 2,000,000 IU of IL-2, followed by embolization with gelatin sponge particles. The procedure was uneventful, and the patient was monitored overnight.
+
+**Post-Procedure Course:**
+Approximately 11 hours post-IE, the patient developed mild hypoxemia, which improved with supplemental oxygen. He subsequently exhibited fever, tachycardia, tachypnea, and progressive hypoxemia. Laboratory findings included leukopenia, elevated liver enzymes, lactic acidosis, and acute kidney injury. An ECG showed sinus tachycardia, and imaging revealed pulmonary and hepatic changes.
+
+Despite aggressive treatment, including diuretics and antibiotics, the patient's condition deteriorated, leading to noninvasive positive-pressure ventilation and transfer to intensive care on hospital day 3. He became disoriented, and echocardiography indicated severe pulmonary hypertension and right ventricular dysfunction.
+
+**Critical Events:**
+The patient required endotracheal intubation due to respiratory failure. He experienced hemodynamic instability necessitating vasopressor support. Serial lab tests showed worsening liver function and cardiac markers, with an ECG indicating ST-segment changes suggestive of acute myocardial infarction. Emergency cardiac catheterization was not feasible due to instability.
+
+**Outcome:**
+The patient suffered a cardiac arrest with pulseless electrical activity and subsequently died. Autopsy findings revealed mild coronary artery atherosclerosis, pulmonary edema, and liver metastases, with no acute myocardial infarction or pulmonary embolism identified.
+
+**Discussion:**
+Pre-treatment laboratory analysis indicated elevated TGF-β1 levels, while post-treatment inflammatory markers showed significant fluctuations. These findings were considered in the differential diagnosis.
+
+**Plan:**
+The patient’s family has been informed of the findings and the unfortunate outcome. Further discussions regarding the management of metastatic UM and potential future treatment options will be conducted.
+
+**Signature:**
+[Physician's Name]  
+[Title]  
+[Date]
+        
+        Using these clinical case and discharge summary, evaluate and provide a score (1 to 5) for each feature listed above in the guidlines.
+        Only provide numeric scores for each feature; do not include comments or explanations.
+        Ensure that each score reflects a direct comparison of the clinical case and its corresponding discharge summary.
+        Just provide the score for each feature, do not provide any additional information.
+        Do not include any comments or explanations. before or after the scores
+        
+        Evaluate from 1 to five and return a json file with the following format:
+        {"Content Relevance": <score>, "Information Completeness": <score>, "Clarity and Structure": <score>, "Content Accuracy": <score>, "Hallucinations": <score>, "Impact of Hallucinations": <score>, "Relevance to Practice": <score>, "Overall Quality": <score>, "Positive/Negative highlights of generation process": <text>, "Other comments on Generated/Original data sources": <text>}
+        
+        EXAMPLE
+            >>>
+            Clinical Case : A sixty-eight-year-old gentleman underwent orthotopic heart transplantation in February 2020. The donor was cytomegalovirus-seronegative with recipient seropositive; both donor and recipient were Toxoplasma-seronegative. His post-operative course was complicated by prolonged intubation, paroxysmal atrial fibrillation, hyperglycemia requiring intravenous insulin, and acute renal failure requiring continuous renal replacement therapy (that resolved prior to discharge). He was discharged March 2020 on prednisone oral (PO) 10 mg/d, mycophenolate mofetil (MMF) PO 250 mg twice daily (BID), tacrolimus PO 4 mg in morning/5 mg in evening and prophylactic antimicrobials (atovaquone, nystatin, valganciclovir).
+
+He was readmitted two months later with complaints of non-productive cough with non-bloody diarrhea for one week; fevers (highest temperature 38.6 °Celsius) for two days; and a one-day history of sternal wound discharge. His family members reported fevers with respiratory symptoms.
+
+His past medical history was significant for coronary artery disease (treated with coronary artery bypass graft and stenting); ischemic cardiomyopathy leading to American College of Cardiology/American Heart Association (ACC/AHA) stage D chronic systolic heart failure necessitating intra-aortic balloon pump (IABP) and left ventricular assist device placement, followed by heart transplant; type-2-DM, hypertension, chronic kidney disease, obstructive sleep apnea and prior smoking.
+
+On evaluation, he was afebrile and hemodynamically stable. Systemic examination revealed dehiscence of lower aspect of sternal incision, with minimal foul-smelling serosanguinous drainage. Respiratory and cardiovascular system examination was otherwise unremarkable. Admission laboratory testing revealed white blood cell count 7.820 × 109/L (normal range {N}: 3.8–10.5 × 109/L), lymphocyte count 0.2 × 109/L (N: 1.0–3.0 × 109/L) and elevated inflammatory markers–C-reactive protein 1612.38 nmol/L (N: 0–3.81 nmol/L), procalcitonin 0.72 μg/L (N: 0.02–0.10 μg/L), lactate dehydrogenase 6083.33 nmol/(s•L) [N: 833.33–4033.33 nmol/(s•L), ferritin 1.15 nmol/L (N: 0.07–0.90 nmol/L) and D-dimer 1194 μg/L DDU (N: ≤ 229 μg/L DDU). Computed tomography imaging (CT) of chest/abdomen/pelvis revealed central and peripheral ground-glass opacities in right middle, lingular and bilateral lower lobes, with bilateral interlobular septal thickening in lower lobes. There were no fluid collections noted at the sternotomy site in the CT scan. Nasopharyngeal testing by reverse-transcriptase-polymerase-chain-reaction detected SARS-Cov-2 virus, confirming the diagnosis of COVID-19.
+
+Infectious diseases service was consulted for assistance in management. Given the ongoing use of immunosuppressive agents, he was not eligible for use of interleukin-inhibitors. He met criteria for enrollment in the antiviral remdesivir trial; however, study recruitment had closed at that time. Initiation of oral hydroxychloroquine (per the institutional COVID-19 protocol at the time) was held due to concurrent amiodarone use and prolonged QTc-interval. He received one convalescent plasma infusion after inclusion in the ongoing trial. He was started on empiric intravenous (IV) vancomycin and meropenem for suspected sternal wound infection. Plastics surgery performed bedside sternal wound debridement, followed by wound vacuum therapy (“wound vac”) placement. Sternal wound cultures grew Morganella morganni and Enterobacter cloacae, with blood cultures also revealing growth of Morganella.
+
+His hospital course was further complicated by encephalopathy, respiratory decompensation necessitating intubation and mechanical ventilation; acute kidney injury necessitating hemodialysis; and recurrent infections (vancomycin-resistant Enterococcus faecium bacteremia, Klebsiella variicola sternal wound infection, coagulase-negative Staphylococcus species bacteremia). He required debridement of sternal wound with reconstruction using pectoralis major muscle flaps. Given the multiple infections, MMF was discontinued and cyclosporine was initiated. He was evaluated by the Rheumatology service for polyarticular gout symptoms. He received a three-day course of IV methylprednisolone, followed by a fifteen-day oral prednisone taper. His prednisone dose was subsequently decreased to 7.5 mg/d PO, so fungal prophylaxis (nystatin) was discontinued per institutional protocol. He underwent bedside tracheostomy one month after admission, with decannulation performed two months after admission. After completing the antibiotic courses, he underwent chest wall reconstruction using omental flap and split-thickness skin grafting.
+
+Approximately three months after admission, purplish skin discoloration with fluctuant swelling was noted in the right axilla, at the prior IABP catheter insertion site. CT chest revealed a 6.4 × 5.3 cm fluid collection along the anterior right upper chest wall, with extensive inflammatory changes in the chest wall and surrounding tissues. There was a 1.3 cm right subclavian artery pseudoaneurysm at the vascular graft site (concerning for mycotic aneurysm). 75 ml of brown fluid was aspirated from the collection by interventional radiology. A rare mold with broad coenocytic/aseptate hyphae was noted on preliminary cultures and was sent to the state reference laboratory for further evaluation. He was started on IV liposomal amphotericin B 550 mg/d and posaconazole delayed-release PO 300 mg/d. Serum markers for fungal infections were normal–(1–3)-β-D-Glucan level 43 pg/mL (N: < 60 pg/mL) and Aspergillus (Galactomannan) antigen < 0.5 index (N: < 0.5). The state laboratory identified the fungus as Rhizopus microsporus.
+
+He underwent exploration and debridement of the thoracic cavity in the operating room. The mold was tunneling under the omentum, extending deep in the right chest cavity and into the musculature. It involved an area of approximately 15 × 5 × 4 cm in size, with burrowing towards the sternal wound. Resection of the subclavian artery and potentially infected prosthetic graft was also performed, with primary repair of the proximal and distal ends. After debridement, wound vac was applied to the sternal wound. Operative sternal wound cultures redemonstrated growth of R. microsporus, while subclavian graft cultures were negative.
+
+His hospital course was further complicated by vancomycin-resistant E. faecium and later daptomycin-resistant E. faecium sternal wound infections; chest wall abscesses with Enterobacter cloacae; and development of sacral decubitus ulcers (managed with local wound care). He eventually developed polymicrobial septic shock (with vancomycin-resistant E. faecium, daptomycin-resistant E. faecium and multi-drug-resistant K. variicola). He was intubated for hypercapneic respiratory failure and worsening encephalopathy. He had worsening vasopressor requirements and unfortunately died on day one-hundred-and-seventy-five of hospital stay.
+
+
+            Discharge Summary : **Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 68 years
+- Gender: Male
+- Admission Date: [Admission Date]
+- Discharge Date: [Discharge Date]
+
+**Medical History:**
+- Coronary artery disease (CABG and stenting)
+- Ischemic cardiomyopathy leading to ACC/AHA stage D chronic systolic heart failure (IABP and LVAD placement)
+- Type 2 diabetes mellitus
+- Hypertension
+- Chronic kidney disease
+- Obstructive sleep apnea
+- History of smoking
+
+**Surgical History:**
+- Orthotopic heart transplantation (February 2020)
+
+**Admission Details:**
+- Readmission Date: [Readmission Date]
+- Chief Complaints: Non-productive cough, non-bloody diarrhea for one week, fevers (max 38.6 °C), sternal wound discharge.
+- Family History: Similar respiratory symptoms and fevers reported among family members.
+
+**Clinical Findings:**
+- Vital Signs: Afebrile, hemodynamically stable
+- Physical Examination: Dehiscence of lower sternal incision with minimal foul-smelling serosanguinous drainage; otherwise unremarkable respiratory and cardiovascular examination.
+
+**Laboratory and Imaging Studies:**
+- WBC: 7.820 × 10^9/L (N: 3.8–10.5 × 10^9/L)
+- Lymphocyte Count: 0.2 × 10^9/L (N: 1.0–3.0 × 10^9/L)
+- Elevated inflammatory markers: CRP 1612.38 nmol/L (N: 0–3.81 nmol/L), Procalcitonin 0.72 μg/L (N: 0.02–0.10 μg/L), LDH 6083.33 nmol/(s•L) (N: 833.33–4033.33 nmol/(s•L)), Ferritin 1.15 nmol/L (N: 0.07–0.90 nmol/L), D-dimer 1194 μg/L DDU (N: ≤ 229 μg/L DDU).
+- CT Chest/Abdomen/Pelvis: Ground-glass opacities in bilateral lower lobes; no fluid collections at sternotomy site.
+- Nasopharyngeal PCR: Positive for SARS-CoV-2.
+
+**Hospital Course:**
+- Infectious diseases consulted; not eligible for interleukin inhibitors due to immunosuppressive therapy.
+- Initiated on IV vancomycin and meropenem for suspected sternal wound infection; bedside sternal wound debridement and vacuum therapy performed.
+- Cultures: Morganella morganii and Enterobacter cloacae from sternal wound; blood cultures positive for Morganella.
+- Complications included encephalopathy, respiratory failure requiring intubation, acute kidney injury necessitating hemodialysis, and recurrent infections.
+- Sternal wound reconstruction with pectoralis major muscle flaps; MMF discontinued, cyclosporine initiated.
+- Developed fungal infection (Rhizopus microsporus) requiring surgical intervention and antifungal therapy.
+- Hospital course complicated by multiple infections, septic shock, and ultimately, death on day 175 of hospitalization.
+
+**Outcome:**
+- Unfortunately, the patient succumbed to complications related to his underlying conditions and infections.
+
+**Plan:**
+- [Further recommendations or follow-up plans if applicable]
+
+**Prepared by:**
+[Provider Name]
+[Title]
+[Date]
+            Evaluation Scores : {'Content Relevance': 1, 'Information Completeness': 1, 'Clarity and Structure': 4, 'Content Accuracy': 2, 'Hallucinations': 1, 'Impact of Hallucinations': 1, 'Relevance to Practice': 1, 'Overall Quality': 2, 'Positive highlights of generation process': 'Good structure. ', 'Negative highlights of generation process': 'Lack of information related with clinical course and outcome. Patient evoluciton is not completly well explained. These parts are important in this case.', 'Other comments on Generated/Original data sources': nan}
+            >>>
+
+
+            EXAMPLE
+            >>>
+            Clinical Case : A 50-year-old man presented to his primary care provider with a 2-week history of progressively worsening dyspnea on exertion and chest discomfort while in the flat position. He described his dyspnea as a feeling of “breathing through a straw.” Additional symptoms included a weight gain of 5 kg in the prior 3 weeks, increased abdominal girth, and paroxysmal nocturnal dyspnea. He also noticed a decline in exercise tolerance from a prior ability to ascend 9 flights of stairs to tolerating only a few steps. He denied fevers, chills, night sweats, palpitations, lightheadedness, or dizziness. He had no recent upper respiratory illness symptoms, such as nasal congestion, sore throat, cough, or sinus pain. His medical history was notable for a small, congenital ventricular septal defect (VSD), obesity (body mass index, 35 kg/m2) and seasonal allergies. His only medication included fexofenadine. He never used tobacco products and reported an average alcohol intake of 2 to 3 beverages per week. In terms of family history, he has a brother with a history of atrial fibrillation; otherwise, there was no family medical history of heart failure or premature coronary artery disease. On physical examination, he was tachycardic with a heart rate of 148 beats per minute with an irregularly irregular rhythm, bibasilar crackles, abdominal distention, jugular venous distension, hepatojugular reflux, and 1+, symmetric, bilateral lower extremity pitting edema.
+
+The clinical findings are not suggestive of chronic obstructive pulmonary disease. There is no history of smoking and no wheezing on physical examination. His symptoms are consistent with a classic presentation of CHF. Patients with volume overload secondary to CHF often demonstrate dyspnea on exertion, weight gain, orthopnea, and paroxysmal nocturnal dyspnea. He also has physical examination findings of bibasilar crackles, pitting edema, and abdominal distension. The progressive nature of dyspnea is less consistent with pulmonary embolus or an acute coronary syndrome. Although constrictive pericarditis can manifest with jugular venous distension and chest discomfort in the flat position, he does not have pleuritic chest pain, fever, or a friction rub on physical examination.
+
+His laboratory studies were the following: hemoglobin, 16.0 g/dL; sodium, 143 mmol/L; creatinine, 1.2 mg/dL; low density lipoprotein, 77 U/L; high density lipoprotein, 54 mg/dL, triglycerides, 88 mg/dL; total cholesterol, 137 mg/dL; thyroid stimulating hormone (TSH), 2.0 mlU/L. An electrocardiogram (ECG) showed atrial fibrillation with rapid ventricular response (RVR) at rate of 148 beats per minute (bpm) without ST-T segment changes suggestive of ischemia. Chest radiography demonstrated new mild cardiomegaly.
+
+Right heart catheterization would provide additional hemodynamic information including cardiac output, filling pressures, and central venous pressure; however, it is not routinely indicated in new diagnosis of heart failure. A TTE is a first-line diagnostic test in new cases of heart failure to assess for left ventricular ejection fraction (LVEF) and structural changes, such as wall motion abnormalities or ventricular dilatation or hypertrophy. Cardiac magnetic resonance imaging can be used to evaluate assess wall motion abnormalities, function, and myocardial tissue perfusion, injury, infiltration, fibrosis, and viability, but is not an appropriate initial test. Endomyocardial biopsies are reserved for patients with progressively worsening heart failure despite appropriate medical therapy, for whom amyloidosis, hemochromatosis, or giant-cell myocarditis is suspected. Coronary angiogram can be considered in new diagnoses of heart failure to determine whether there is an ischemic etiology or reversible ischemia, especially in patients with risk factors. However, angiography would not be the first diagnostic test.
+
+His TTE showed an LVEF of 25% with severe generalized left ventricular hypokinesis, moderate right ventricular enlargement with moderate reduction in right ventricular systolic function, right ventricular systolic pressure of 56 mm Hg, severe left atrial enlargement, and mitral and tricuspid annulus dilatation with secondary functional severe mitral and tricuspid regurgitation. There was no change in his congenital VSD. At the time of the study, he was notably tachycardic (132 bpm). An ECG 1 year ago showed an LVEF of 60%, no regional wall motion abnormalities, normal right ventricular size and systolic function, small membranous VSD with restrictive left-to-right shunt, mild tricuspid regurgitation, mild mitral regurgitation, trivial aortic stenosis, and trivial aortic regurgitation.
+
+His clinical symptomatology of CHF and LVEF less than 50% classifies the diagnosis of heart failure with reduced ejection fraction (HFrEF).
+
+Along with a TTE, initial diagnostic evaluation for acute CHF presentations should include a 12-lead ECG to evaluate for acute myocardial infarction, tachyarrhythmia, conduction abnormalities, or left ventricular hypertrophy. A chest radiography should be obtained to evaluate for an acute cardiopulmonary process such as pneumonia, pulmonary edema, or pneumothorax. Other initial laboratory studies should include a complete blood cell count (CBC) with differential, electrolyte levels, creatinine, N-terminal-pro b-type natriuretic peptide, troponin level, urinalysis, lipid panel and TSH. Coronary artery disease causes approximately two thirds of CHF, and an acute coronary syndrome should be suggested as a cause of new-onset heart failure if there are elevated troponin levels, new ECG abnormalities, an acute onset of symptoms, or concurrent signs and symptoms of systemic hypoperfusion.1 Hyponatremia, if present, is a poor prognostic factor.2
+
+The patient also had an ECG Holter monitor revealing of atrial fibrillation with heart rates varying from 93–179 bpm (average, 126 bpm) with RVR occurring 99.9% of the time captured. He reported dyspnea while in atrial fibrillation with RVR. He was given furosemide and metoprolol tartrate by his primary care physician with plans to titrate to heart rates slower than 110 bpm.
+
+Three beta blockers with beta-1 activity have been shown to decrease mortality in heart failure: carvedilol, bisoprolol, and metoprolol succinate. A switch to atenolol would not be appropriate. There is some debate as to whether carvedilol is superior to metoprolol in mortality reduction, as shown by the COMET trial in 2003.3 In this study, carvedilol had better reduction in mortality rate compared with metoprolol tartrate. Carvedilol has alpha blockade properties that is speculated to be beneficial by facilitating vasodilation, glucose uptake, and insulin sensitivity. Of note, because the COMET trial used the tartrate formulation instead of the extended-release succinate form, a definite superiority between metoprolol succinate and carvedilol cannot be determined. Beta blocker dose response relationship to reduction in mortality has been shown; patients should be uptitrated on beta blockers as tolerated in HFrEF and until rate control is achieved in atrial fibrillation. Furosemide is a more appropriate diuretic than hydrochlorothiazide. Dosing should be based on volume status; however, there is no dose-dependent relationship to mortality outcomes. ICD placement consideration is indicated for primary prophylaxis against sudden cardiac death in patients with New York Heart Association Class II or III HFrEF with LVEF less than 35% after 3 months of optimal medical management. However, patients should be on optimal medical treatment and treated for reversible underlying etiologies before ICD implantation consideration. Similarly, mitral valve replacement is not indicated at this time, as his severe mitral regurgitation is functional and could improve with treatment of reversible causes. The 2014 American Heart Association/American College of Cardiology/Heart Rhythm Society recommends long-term anticoagulation based on thromboembolic risk as determined by the CHA2DS2-VASC Score. This patient began taking long-term apixaban considering his moderate risk stratification (CHA2DS2-VASC score of 1 for heart failure, or 0.6% stroke per year risk), low LVEF with ventricular dilatation, and low bleeding risk. He transitioned to carvedilol for beta blockade, started taking lisinopril, and continued with furosemide as directed by his cardiologist.
+
+His HFrEF was thought to be most likely due to tachycardia-induced cardiomyopathy. Initial clues were new reduced LVEF with generalized hypokinesis in the setting of a new diagnosis of atrial fibrillation with predominant RVR on ECG Holter monitoring.
+
+On a return visit to his primary care physician, the patient had persistently elevated heart rates to the 130-bpm range despite being uptitrated on carvedilol therapy. His in-clinic blood pressure was 104/81 mm Hg.
+
+Tachycardia-induced cardiomyopathy results from prolonged elevated heart rate, which is often reversible upon control of the arrhythmia or heart rate. The goal of initial therapy is to achieve rate control. Increasing beta blockade would be an option for achieving rate control in this patient. However, rate control may be difficult to achieve with beta blockade in patients with rapid ventricular rates and new reduction of ejection fraction (EF)das in this case. Therefore, early electrical cardioversion is warranted to reduce the risk of further progression of HFrEF. Pacemaker placement is not indicated. ICD referral may be warranted at a later time, if left ventricular systolic function does not recover after appropriate medical therapy. Aspirin and clopidogrel are not indicated in heart failure or atrial fibrillation.
+
+Because of this patient’s markedly depressed EF, a TEE-guided direct cardioversion was pursued urgently; it was successful after the third synchronous shock of 100, 120, and 150 J. The TEE also showed severe left atrial enlargement, along with previously seen severe mitral regurgitation and severe tricuspid regurgitation. An ECG after cardioversion showed sinus rhythm with a heart rate of 94 bpm with premature atrial complexes.
+
+Although direct electric cardioversion is an effective way to revert to sinus rhythm, there is a high rate of atrial fibrillation recurrence, with as few as 23% of patients remaining in sinus rhythm after 1 year. Risk factors for reverting back to arrhythmia included duration of arrhythmia, atrial fibrillation (vs atrial flutter), and age. The patient was started on amiodarone after his cardioversion because of his severe left atrial enlargement and concern for early relapse.
+
+Amiodarone can cause adverse effects of long-term use, including pulmonary toxicity, thyroid dysfunction, hepatotoxicity. The risks and benefits of continuing the drug should be discussed with the patient. Baseline tests include chest radiography, pulmonary function tests, thyroid function tests, and transaminases. Hematologic, renal, and cardiac toxicities are uncommon; thus, CBC/peripheral smear/lactic acid dehydrogenase, sodium/potassium/creatinine, ECG Holter and ambulatory blood pressure monitoring, and cardiac catheterization are not routine studies before starting amiodarone.
+
+Repeated TTE 2 months later showed a significantly improved EF of 52%, with mildemoderate left ventricular enlargement, mild generalized hypokinesis, and borderline right ventricular enlargement with borderline decreased systolic function and estimated right ventricular systolic pressure of 32 mm Hg. The degree of mitral regurgitation had improved to mildemoderate severity and tricuspid regurgitation was trivial. The patient had a weight loss of 15 kg while taking furosemide and overall symptomatic improvement with increased exercise capacity.
+
+Four months later, a repeated TTE revealed a decline in EF to 35%−40 %, with substantial beat-to-beat variability, return of atrial fibrillation with RVR, moderate left ventricular hypokinesis, borderline decrease in right ventricular systolic function, and mild to moderate mitral regurgitation and tricuspid regurgitation. His heart rate was 111 bpm. He underwent repeat direct current cardioversion. Follow-up TTE 2 months after repeated direct current cardioversion showed improvement of his EF again to 61% without regional wall motion abnormalities and a mildly enlarged left ventricle. Long-term therapy with amiodarone was discussed with this patient, but not pursued because of potential adverse effects.
+
+Given recurrent episodes of atrial fibrillation, and subsequent reduced EF with each of these episodes, the decision was made to pursue a rhythm control strategy, and the patient underwent atrial fibrillation ablative therapy. He remained asymptomatic 6 months later, with no recurrent episodes, and maintained his left ventricular systolic function (EF = 61%).
+
+
+            Discharge Summary : **Discharge Summary**
+
+**Patient Information:**
+- Name: [Patient Name]
+- Age: 50 years
+- Gender: Male
+- Date of Admission: [Admission Date]
+- Date of Discharge: [Discharge Date]
+
+**Chief Complaint:**
+Progressively worsening dyspnea on exertion and chest discomfort.
+
+**History of Present Illness:**
+The patient presented with a 2-week history of dyspnea described as "breathing through a straw," accompanied by chest discomfort while lying flat. He reported a weight gain of 5 kg over the past 3 weeks, increased abdominal girth, and episodes of paroxysmal nocturnal dyspnea. His exercise tolerance declined significantly, from being able to ascend 9 flights of stairs to only tolerating a few steps. He denied any fevers, chills, night sweats, palpitations, lightheadedness, or dizziness, and had no recent upper respiratory symptoms.
+
+**Past Medical History:**
+- Congenital ventricular septal defect (VSD)
+- Obesity (BMI: 35 kg/m²)
+- Seasonal allergies
+
+**Medications:**
+- Fexofenadine
+
+**Social History:**
+- Non-smoker
+- Alcohol intake: 2-3 beverages per week
+
+**Family History:**
+- Brother with atrial fibrillation; no family history of heart failure or premature coronary artery disease.
+
+**Physical Examination:**
+- Vital Signs: Tachycardic at 148 bpm, irregularly irregular rhythm
+- Respiratory: Bibasilar crackles
+- Cardiovascular: Jugular venous distension, hepatojugular reflux
+- Abdomen: Distended
+- Extremities: 1+ symmetric bilateral lower extremity pitting edema
+
+**Diagnostic Studies:**
+- **Laboratory Results:**
+  - Hemoglobin: 16.0 g/dL
+  - Sodium: 143 mmol/L
+  - Creatinine: 1.2 mg/dL
+  - Lipid Panel: LDL 77 U/L, HDL 54 mg/dL, Triglycerides 88 mg/dL, Total Cholesterol 137 mg/dL
+  - TSH: 2.0 mlU/L
+
+- **Electrocardiogram (ECG):** Atrial fibrillation with rapid ventricular response (RVR) at 148 bpm, no ischemic changes.
+- **Chest Radiography:** Mild cardiomegaly.
+- **Transthoracic Echocardiogram (TTE):** LVEF 25%, severe left ventricular hypokinesis, moderate right ventricular enlargement, severe left atrial enlargement, functional severe mitral and tricuspid regurgitation.
+
+**Diagnosis:**
+Heart failure with reduced ejection fraction (HFrEF) likely due to tachycardia-induced cardiomyopathy.
+
+**Treatment:**
+- Initiated on furosemide and metoprolol tartrate for heart failure management.
+- Transitioned to carvedilol for beta blockade.
+- Started on lisinopril and long-term apixaban for anticoagulation.
+- Underwent successful TEE-guided direct cardioversion after unsuccessful attempts with medication.
+- Amiodarone was initiated post-cardioversion due to severe left atrial enlargement.
+
+**Follow-Up:**
+- Repeated TTE showed improvement in EF to 52% after 2 months, but subsequent decline to 35-40% with recurrent atrial fibrillation episodes.
+- Underwent repeat direct current cardioversion, followed by a rhythm control strategy with atrial fibrillation ablative therapy.
+- At 6-month follow-up, the patient remained asymptomatic with maintained EF of 61%.
+
+**Plan:**
+- Continue monitoring cardiac function and adjust medications as necessary.
+- Discuss potential long-term effects of amiodarone and consider alternatives if needed.
+- Schedule regular follow-up appointments to monitor heart failure status and rhythm control.
+
+**Discharge Instructions:**
+- Adhere to prescribed medication regimen.
+- Monitor weight and report any significant changes.
+- Maintain follow-up appointments with cardiology and primary care.
+- Educate on signs of worsening heart failure and when to seek medical attention.
+
+**Physician's Signature:**
+[Physician Name, Title]  
+[Date]
+            Evaluation Scores : {'Content Relevance': 5, 'Information Completeness': 5, 'Clarity and Structure': 5, 'Content Accuracy': 5, 'Hallucinations': 1, 'Impact of Hallucinations': 1, 'Relevance to Practice': 5, 'Overall Quality': 5, 'Positive highlights of generation process': 'Highly accurate in the diagnosis.An excellent overall performance', 'Negative highlights of generation process': 'Omited information: ECG Holter and EKG after CV (both are important in FA clinical cases)', 'Other comments on Generated/Original data sources': nan}
+            >>>
+
