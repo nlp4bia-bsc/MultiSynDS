@@ -2,7 +2,11 @@
 data/**
 !data/.gitkeep
 .venv
+output/*
 
 jobs
 __pycache__
+**_cache
 logs*
+
+.vscode

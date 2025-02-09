@@ -1,0 +1,31 @@
+Look at these guidelines carefully, i have also provided the dataset for you to analyze:
+    
+Guidelines : {guidelines}
+
+Clinical Case : {clinical_case}
+
+Discharge Summary : {discharge_summary}
+
+Using these clinical case and discharge summary, evaluate and provide a score (1 to 5) for each feature listed above in the guidelines.
+Only provide numeric scores for each feature; do not include comments or explanations.
+Ensure that each score reflects a direct comparison of the clinical case and its corresponding discharge summary.
+Just provide the score for each feature, do not provide any additional information.
+Do not include any comments or explanations. before or after the scores
+
+{examples}
+
+Evaluate from 1 to 5 and return a json file with the following format:
+
+{{
+  "Content Relevance": <score>, 
+  "Information Completeness": <score>, 
+  "Clarity and Structure": <score>, 
+  "Content Accuracy": <score>, 
+  "Hallucinations": <score>,
+  "Impact of Hallucinations": <score>, 
+  "Relevance to Practice": <score>, 
+  "Overall Quality": <score>, 
+  "Positive highlights": <text>,
+  "Negative highlights": <text>,
+  "Other comments on Generated/Original data sources": <text>
+  }}

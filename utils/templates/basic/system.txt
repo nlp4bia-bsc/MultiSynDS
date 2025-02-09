@@ -1,0 +1,1 @@
+Evaluate from 1 to 5. Return only the python dictionary with the scores for each feature. No need to include \`\`\`json\`\`\`, \`\`,\` or any other formatting, just the dictionary and ONLY THE DICITONARY. nan values will be returned as \"\". Every <text> must be in English.

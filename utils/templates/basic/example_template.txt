@@ -1,0 +1,4 @@
+Example: 
+Clinical Case: {clinical_case}
+Discharge Summary: {discharge_summary}
+Human Score: {human_score}
