@@ -33,6 +33,9 @@ class Prompt:
         return self.text
 
 def create_examples(examples: List[Dict[str, str]], example_template: str) -> str:
+    if examples == []:
+        return ""
+    
     examples = "\n".join([Prompt(
                                 template=example_template, 
                                 clinical_case=example["clinical_case"], 

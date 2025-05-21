@@ -2,8 +2,9 @@ from transformers import pipeline
 
 class LlamaInstruct:
     
-    def __init__(self, model_id: str):
+    def __init__(self, model_id: str, device: str = "cuda"):
         self.model_id = model_id
+        self.device = device
         self.model = self.load_model()
 
     def load_model(self) -> pipeline:
@@ -18,7 +19,7 @@ class LlamaInstruct:
         """
         from transformers import pipeline
         
-        model = pipeline("text-generation", model=self.model_id,  pad_token_id=128001)
+        model = pipeline("text-generation", model=self.model_id,  pad_token_id=128001, device=self.device)
         
         print(f"Model {self.model_id} loaded successfully.")
         return model

@@ -1,9 +1,0 @@
-N_EXPECTED_SAMPLES: 35
-N_EXAMPLES: 7
-
-MODEL_ID: "/gpfs/projects/bsc14/abecerr1/hub/models--meta-llama--Llama-3.2-3B-Instruct/snapshots/0cb88a4f764b7a12671c53f0838cd831a0843b95"
-
-SOURCE_PATH: "output/samples/en/phase_2/"
-TEMPLATES_PATH: "utils/templates/basic"
-
-OUTPUT_PATH: "output/evaluation/llama_3B_inst_eval"

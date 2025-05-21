@@ -1,0 +1,9 @@
+N_EXPECTED_SAMPLES: 35
+N_EXAMPLES: 0
+
+MODEL_ID: "/gpfs/projects/bsc14/abecerr1/hub/models--prometheus-eval--prometheus-7b-v2.0/snapshots/66ffb1fc20beebfb60a3964a957d9011723116c5"
+
+SOURCE_PATH: "output/samples/en/phase_2/"
+TEMPLATES_PATH: "utils/templates/basic"
+
+OUTPUT_PATH: "output/evaluation/llama_doctor_orig_prompt"

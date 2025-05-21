@@ -1,0 +1,9 @@
+N_EXPECTED_SAMPLES: 35
+N_EXAMPLES: 7
+
+MODEL_ID: "/gpfs/projects/bsc14/abecerr1/hub/models--Henrychur--MMed-Llama-3-8B-EnIns/snapshots/45936f724a7eabfce59cd8eaed318970db468cad"
+
+SOURCE_PATH: "output/samples/en/phase_2/"
+TEMPLATES_PATH: "utils/templates/basic"
+
+OUTPUT_PATH: "output/evaluation/MMed-Llama-3-8B-EnIns"

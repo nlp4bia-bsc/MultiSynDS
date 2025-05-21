@@ -1,0 +1,78 @@
+One of the main bottlenecks for the development of clinical NLP resources if the lack of access to clinical records due to data privacy issues. This is particularly true for developments beyond English, as most of the accessible anonymized clinical record datasets are only available for this language.
+
+To examine if clinical case report publications could potentially be considered as a data source to generate synthetic clinical discharge summaries by means of generative AI solutions, prompt instructions combined with automatic clinical were applied.
+
+This structured summary has the purpose to systematically characterize the clinical language characteristics of synthetic discharge summaries.
+
+Each discharge summary was assessed for a predefined set of features.
+
+Likert scale features (to extract statistics) from 1 to 5:
+
+- **Content Relevance:**
+  - *Criteria:* Does the summary focus on clinically relevant information?
+  - *Score 1:* The summary largely misses the clinically relevant details.
+  - *Score 2:* The summary includes only a few clinically relevant details.
+  - *Score 3:* The summary covers some relevant information but omits key aspects.
+  - *Score 4:* The summary covers most clinically relevant details with minor omissions.
+  - *Score 5:* The summary is entirely focused on clinically relevant information.
+
+- **Information Completeness:**
+  - *Criteria:* Does the summary include all key details (diagnoses, treatments, follow-ups)?
+  - *Score 1:* Key details are largely missing from the summary.
+  - *Score 2:* Only a few key details are present, with many important ones absent.
+  - *Score 3:* Some key details are included, but several are missing.
+  - *Score 4:* Most key details are present, though a few minor elements may be missing.
+  - *Score 5:* The summary comprehensively includes all required key details.
+
+- **Clarity and Structure:**
+  - *Criteria:* Is the information presented in a clear and logically structured manner like a real discharge report?
+  - *Score 1:* The summary is poorly organized and very hard to follow.
+  - *Score 2:* The structure is inconsistent and makes the content challenging to understand.
+  - *Score 3:* The summary is moderately clear and structured, though improvements are needed.
+  - *Score 4:* The summary is clear and well-organized with only minor issues.
+  - *Score 5:* The summary is very clear, logically structured, and mimics a professional discharge report.
+
+- **Content Accuracy:**
+  - *Criteria:* Does the report accurately reflect the clinical information provided in the input?
+  - *Score 1:* The summary contains numerous inaccuracies compared to the input.
+  - *Score 2:* The summary has several inaccuracies that affect its reliability.
+  - *Score 3:* The summary is generally accurate but includes some errors.
+  - *Score 4:* The summary is mostly accurate with only minor discrepancies.
+  - *Score 5:* The summary accurately reflects the clinical information provided.
+
+- **Hallucinations:**
+  - *Criteria:* Are there any factual inaccuracies or fabricated content in the summary?
+  - *Score 1:* The summary contains significant fabricated or inaccurate content.
+  - *Score 2:* The summary shows noticeable inaccuracies or hallucinations.
+  - *Score 3:* There are minor inaccuracies or fabricated details present.
+  - *Score 4:* The summary is nearly free of hallucinations, with minimal issues.
+  - *Score 5:* The summary is completely free of hallucinations or fabricated content.
+
+- **Impact of Hallucinations:**
+  - *Criteria:* How severe are the hallucinations? (e.g., 1-2: Irrelevant content, 3: includes details about the patient not in original, 4-5: medication doses, procedures, etc.)
+  - *Score 1:* Hallucinations, if present, are minor and do not affect key details.
+  - *Score 2:* Hallucinations are noticeable but do not significantly impact clinical relevance.
+  - *Score 3:* Hallucinations include some extra details not present in the original.
+  - *Score 4:* Hallucinations affect important clinical details moderately.
+  - *Score 5:* Hallucinations are severe, impacting critical clinical information such as medication doses or procedures.
+
+- **Relevance to Practice:**
+  - *Criteria:* Would this summary be usable in clinical practice without significant revision?
+  - *Score 1:* The summary is not usable in its current form for clinical practice.
+  - *Score 2:* The summary requires major revisions to be usable.
+  - *Score 3:* The summary is moderately usable but needs some revisions.
+  - *Score 4:* The summary is largely usable with only minor revisions needed.
+  - *Score 5:* The summary is fully usable in clinical practice without significant revisions.
+
+- **Overall Quality:**
+  - *Criteria:* How would you rate the overall quality of the discharge summary?
+  - *Score 1:* The overall quality of the summary is very poor.
+  - *Score 2:* The summary is below acceptable quality.
+  - *Score 3:* The summary is of acceptable quality, but improvements are needed.
+  - *Score 4:* The summary is of high quality, with only minor imperfections.
+  - *Score 5:* The summary is excellent in overall quality.
+  
+Free text features to be commented in error analysis. They are mandatory to be filled in with non-empty text.
+- Positive highlights of generation process
+- Negative highlights of generation process
+- Other comments on Generated/Original data sources
