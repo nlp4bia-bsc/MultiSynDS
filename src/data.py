@@ -49,7 +49,7 @@ def create_examples(examples: List[Dict[str, str]], example_template: str) -> st
 
 def extract_txt(path, filename):
     total_path = os.path.join(path, filename)
-    return filename.split(".")[0], open(total_path, "r").read()
+    return filename.split(".")[0], open(total_path, "r", encoding="utf8").read()
 
 def files_to_df(path, extensions=["txt"]):
     files = [x for x in os.listdir(path) if x.split(".")[-1] in extensions]
