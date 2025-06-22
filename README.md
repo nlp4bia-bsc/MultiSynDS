@@ -1,34 +1,147 @@
-# MultiSynDS
+# MultiSynDS: Multilingual Synthetic Discharge Summary Generation
 
-From [1] diverse possibilites are proposed for **automatic evaluation**:
+A reproducible and privacy‑preserving framework for generating, translating, and evaluating hospital‑style discharge summaries from clinical case reports using large language models and clinical NLP.
 
-1. **Text Quality**
-   1. **Word-overlap** based like ROUGE or BLEU. However, as we dont have a gold standard, **these metrics don't make much sense.**
-   2. **Embedding-based** metrics like BERTScore, BLEURT or QuestEval. **These can be explored.**
-2. **Medical concept correctness**
-   1. **Negation Correctness**
-      1. Get concepts coincident in source and output and then see how many of them were negated or not negated in both of the documents.
-   2. **Concept Coverage**
-      1. NER+L: Several studies have utilized concept correctness measures, such as F1score, precision, recall, and false positives, at various levels of granularity, including the report level and section level.
-   3. **Fact Extraction**: The Fact-based metrics consist of two variants: Fact-Core, which relies on the extraction of seven core fact attributes, and Fact-Full, which combines these core facts and five additional attributes.
+## Repository Structure
 
-   The main problem of concept-based evaluation is the amount of False Positives.
+```
+├── data                      # Input datasets and resources
+│   ├── 0_raw                 # Raw original documents
+│   ├── 1_original            
+│   │   ├── metadata          # Case report metadata
+│   │   └── txt               # Case report texts
+│   ├── 2_generated           # Synthetic summaries
+│   │   ├── 2step_transformation_dt4h_GeminiFlash
+│   │   │   ├── en            # English summaries
+│   │   │   └── nl            # Dutch summaries
+│   │   └── 2step_transformation_dt4h_GPT4omini
+│   │       ├── en
+│   │       └── nl
+│   ├── 3_toy_data            # Minimal examples for testing
+│   ├── 4_gazetteers          # Gazetteer lists (e.g. medical terms)
+│   │   └── en
+│   ├── 5_abbreviations       # Clinical abbreviation lists
+│   ├── human_eval            # Human evaluation responses
+│   │   ├── gpt4omini
+│   │   └── original
+│   └── umls                  # UMLS resources
+|
+├── img                       # Figures and illustrations
+│   ├── architecture          
+│   ├── automatic_metric      
+│   ├── data_analysis         
+│   ├── external_figures      
+│   └── results_analysis
+│       └── form2
+|
+├── nbs                       # Notebooks for each phase
+│   ├── data                  
+│   │   ├── en
+│   │   │   └── gpt40mini_comp
+│   │   ├── nl
+│   │   └── orig
+│   ├── evaluation            
+│   │   ├── automatic         # Automatic metric notebooks
+│   │   │   ├── auto_eval_thres
+│   │   │   ├── cardioner_auto_eval
+│   │   │   └── cardioner_entities
+│   │   ├── correlations      # Phase correlations
+│   │   │   ├── phase_1
+│   │   │   ├── phase_2
+│   │   │   │   └── 70B
+│   │   │   └── phase_3
+│   │   └── human             # Human evaluation analysis
+│   ├── generative            # Summary generation and judge evaluation
+│   │   ├── Form_1
+│   │   │   └── phase_2
+│   │   ├── Form_2
+│   │   │   └── phase_2
+│   │   ├── Form_3
+│   │   │   └── phase_3        # Contains LLM‑as‑judge for multiple models
+│   │   └── other             # Auxiliary notebooks
+│   └── ner                   # Named entity recognition tutorials
+│       └── scispacy
+│           └── tutorial
+|
+├── output                    # Generated outputs and evaluation results
+│   ├── automatic_metric      # Metric scores and plots
+│   ├── data                  # Synthetic summaries
+│   │   ├── 2step_transformation_dt4h_GeminiFlash
+│   │   │   └── en
+│   │   └── 2step_transformation_dt4h_GPT4omini
+│   │       └── en
+│   ├── evaluation            # Evaluation outputs per form
+│   │   ├── Form1
+│   │   ├── Form2
+│   │   └── Form3             # Phase 3 summaries and original texts
+│   └── samples
+│       └── en
+│           ├── phase_1
+│           ├── phase_2
+│           └── phase_3       # Generated and original
+|
+├── scripts                   # Helper scripts for model inference
+│   ├── llama_3B_inst_eval
+│   ├── llama_doctor
+│   ├── MMed-Llama-3-8B-EnIns
+│   └── prometheus_2_mistral
+|
+├── src                       # Source code modules
+│   └── __pycache__
+|
+├── tests                     # Unit tests
+│   └── src
+|
+├── utils                     # Utilities, prompts, and templates
+│   ├── prompts
+│   └── templates
+│       ├── basic
+│       └── prometheus2_7b
+|
+├── requirements.txt          # Project dependencies
+├── LICENSE                   # MIT License
+└── README.md                 # This file
+```
 
-3. **Auxiliary or intermediate tasks**
-Examples in the survey are more related to speech and intent detection. I propose better:
+## Installation
 
-   1. Applying a bi-encoder to measure text similarity and re-rank it using a cross-encoder
-   2. applying clustering and ensuring that source and target are in the same one
-In both cases, I would remove structure level features such as sections
+1. Clone the repository:
 
-For **human evaluation**, the following approaches may be considered:
+   ```bash
+   git clone https://github.com/your-org/multisynDS.git
+   cd multisynDS
+   ```
 
-1. **Intrinsic evaluation**: properties of the system’s output.
+2. Create and activate a Python 3.10+ environment:
 
-   1. **Text quality**: relevance, consistency, fluency, coherence, missing, hallucination, repetition and contraction. Srivastava et al. (2022) used four standard linguistic parameters: relevance (selection of relevant content), consistency (factual alignment between the summary and the source), fluency (linguistic quality of each sentence), and coherence (structure and organization of summary). In addition to these commonly used and well-studied criteria, the evaluation of MRG also concludes other medical correctness criteria, such as factually correct and medically relevant information.
-   2. **Factually correct and medically relevant information**: Critical Omissions, Hallucinations, Correct Facts, Incorrect Facts based on fact extraction.
-   3. **Relative evaluations**: Given 2 model outputs, choosing which one is better. In our situation it could be interesting when comparing diverse model outputs.
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-## References
+3. Install dependencies:
 
-[1] Zhou, Y., Ringeval, F., & Portet, F. (2023). A Survey of Evaluation Methods of Generated Medical Textual Reports. In T. Naumann, A. Ben Abacha, S. Bethard, K. Roberts, & A. Rumshisky (Eds.), Proceedings of the 5th Clinical Natural Language Processing Workshop (pp. 447–459). Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.clinicalnlp-1.48
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+4. Download SNOMED CT International Edition (2024AA) and set the `SNOMED_DIR` environment variable.
+
+## Usage
+
+### Automatic Evaluation
+
+Execute automatic metrics on generated summaries in the `nbs\evaluation\automatic` directory.
+
+### LLM‑as‑Judge Evaluation
+
+Run the LLM‑as‑judge evaluation notebooks in `nbs\generative\Form_3\phase_3` to assess the quality of generated summaries.
+
+### Figures Export
+
+Other notebooks under `nbs` export plots to `img` subfolders. To regenerate, run the desired notebook; figures will save automatically.
+
+## Contact
+
+For questions or contributions, please contact alberto.becerra.tome@gmail.com.
